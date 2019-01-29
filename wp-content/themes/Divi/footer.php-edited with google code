@@ -1,0 +1,496 @@
+<?php if ( 'on' == et_get_option( 'divi_back_to_top', 'false' ) ) : ?>
+
+	<span class="et_pb_scroll_top et-pb-icon"></span>
+
+<?php endif;
+
+if ( ! is_page_template( 'page-template-blank.php' ) ) : ?>
+
+			<footer id="main-footer">
+				<?php get_sidebar( 'footer' ); ?>
+
+
+		<?php
+			if ( has_nav_menu( 'footer-menu' ) ) : ?>
+
+				<div id="et-footer-nav">
+					<div class="container">
+						<?php
+							wp_nav_menu( array(
+								'theme_location' => 'footer-menu',
+								'depth'          => '1',
+								'menu_class'     => 'bottom-nav',
+								'container'      => '',
+								'fallback_cb'    => '',
+							) );
+						?>
+					</div>
+				</div> <!-- #et-footer-nav -->
+
+			<?php endif; ?>
+
+				<div id="footer-bottom">
+					<div class="container clearfix">
+				<?php
+					if ( false !== et_get_option( 'show_footer_social_icons', true ) ) {
+						get_template_part( 'includes/social_icons', 'footer' );
+					}
+
+					echo et_get_footer_credits();
+				?>
+					</div>	<!-- .container -->
+				</div>
+			</footer> <!-- #main-footer -->
+		</div> <!-- #et-main-area -->
+
+<?php endif; // ! is_page_template( 'page-template-blank.php' ) ?>
+
+	</div> <!-- #page-container -->
+	<?php wp_footer(); ?>
+<script>
+	jQuery(document).ready(function(){
+		var code1_html = jQuery('.code1').html();
+        jQuery("#ptp-127-cta-0").after(code1_html);
+		jQuery('.code1').remove();
+		
+		var code1_html = jQuery('.code2').html();
+        jQuery("#ptp-127-cta-1").after(code1_html);
+		jQuery('.code2').remove();
+		
+		var code1_html = jQuery('.code3').html();
+        jQuery("#ptp-127-cta-2").after(code1_html);
+		jQuery('.code3').remove();
+		
+		var code1_html = jQuery('.code4').html();
+        jQuery("#ptp-165-cta-0").after(code1_html);
+		jQuery('.code4').remove();
+		
+		var code1_html = jQuery('.code5').html();
+        jQuery("#ptp-165-cta-1").after(code1_html);
+		jQuery('.code5').remove();
+		
+		var code1_html = jQuery('.code6').html();
+        jQuery("#ptp-165-cta-2").after(code1_html);
+		jQuery('.code6').remove();
+		
+		var code1_html = jQuery('.code7').html();
+        jQuery("#ptp-202-cta-0").after(code1_html);
+		jQuery('.code7').remove();
+		
+		var code1_html = jQuery('.code8').html();
+        jQuery("#ptp-202-cta-1").after(code1_html);
+		jQuery('.code8').remove();
+		
+		var code1_html = jQuery('.code9').html();
+        jQuery("#ptp-202-cta-2").after(code1_html);
+		jQuery('.code9').remove();
+		
+		var code1_html = jQuery('.code10').html();
+        jQuery("#ptp-206-cta-0").after(code1_html);
+		jQuery('.code10').remove();
+		
+		var code1_html = jQuery('.code11').html();
+        jQuery("#ptp-206-cta-1").after(code1_html);
+		jQuery('.code11').remove();
+		
+		var code1_html = jQuery('.code12').html();
+        jQuery("#ptp-206-cta-2").after(code1_html);
+		jQuery('.code12').remove();
+		
+		var code1_html = jQuery('.code13').html();
+        jQuery("#ptp-238-cta-0").after(code1_html);
+		jQuery('.code13').remove();
+		
+		var code1_html = jQuery('.code14').html();
+        jQuery("#ptp-238-cta-1").after(code1_html);
+		jQuery('.code14').remove();
+		
+		var code1_html = jQuery('.code15').html();
+        jQuery("#ptp-238-cta-2").after(code1_html);
+		jQuery('.code15').remove();
+		
+		var code1_html = jQuery('.code16').html();
+        jQuery("#ptp-235-cta-0").after(code1_html);
+		jQuery('.code16').remove();
+		
+		var code1_html = jQuery('.code17').html();
+        jQuery("#ptp-235-cta-1").after(code1_html);
+		jQuery('.code17').remove();
+		
+		var code1_html = jQuery('.code18').html();
+        jQuery("#ptp-235-cta-2").after(code1_html);
+		jQuery('.code18').remove();
+    });
+</script>
+<div class="code1">
+	<script type="text/javascript">
+	var google_conversion_id = 930455254;
+	var google_conversion_language = "en";
+	var google_conversion_format = "3";
+	var google_conversion_color = "ffffff";
+	var google_conversion_label = "aDeUCLjDlHMQ1r3WuwM";
+	var google_remarketing_only = false;
+	</script>
+	<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+	</script>
+	<noscript>
+	<div style="display:inline;">
+	<img height="1" width="1" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/930455254/?label=aDeUCLjDlHMQ1r3WuwM&amp;guid=ON&amp;script=0"/>
+	</div>
+	</noscript>
+</div>
+<div class="code2">
+    <!-- Google Code for NA PREMIUM Conversion Page -->
+    <script type="text/javascript">
+    /* <![CDATA[ */
+    var google_conversion_id = 930455254;
+    var google_conversion_language = "en";
+    var google_conversion_format = "3";
+    var google_conversion_color = "ffffff";
+    var google_conversion_label = "nbZkCIi4nHMQ1r3WuwM";
+    var google_remarketing_only = false;
+    /* ]]> */
+    </script>
+    <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+    </script>
+    <noscript>
+    <div style="display:inline;">
+    <img height="1" width="1" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/930455254/?label=nbZkCIi4nHMQ1r3WuwM&amp;guid=ON&amp;script=0"/>
+    </div>
+    </noscript>
+</div>
+<div class="code3">
+	<!-- Google Code for NA LUXURY Conversion Page -->
+	<script type="text/javascript">
+    /* <![CDATA[ */
+    var google_conversion_id = 930455254;
+    var google_conversion_language = "en";
+    var google_conversion_format = "3";
+    var google_conversion_color = "ffffff";
+    var google_conversion_label = "RGSBCOC5nHMQ1r3WuwM";
+    var google_remarketing_only = false;
+    /* ]]> */
+    </script>
+    <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+    </script>
+    <noscript>
+    <div style="display:inline;">
+    <img height="1" width="1" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/930455254/?label=RGSBCOC5nHMQ1r3WuwM&amp;guid=ON&amp;script=0"/>
+    </div>
+    </noscript>
+</div>
+<div class="code4">
+    <!-- Google Code for EW BASIC Conversion Page -->
+    <script type="text/javascript">
+    /* <![CDATA[ */
+    var google_conversion_id = 930455254;
+    var google_conversion_language = "en";
+    var google_conversion_format = "3";
+    var google_conversion_color = "ffffff";
+    var google_conversion_label = "SfwECK34nHMQ1r3WuwM";
+    var google_remarketing_only = false;
+    /* ]]> */
+    </script>
+    <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+    </script>
+    <noscript>
+    <div style="display:inline;">
+    <img height="1" width="1" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/930455254/?label=SfwECK34nHMQ1r3WuwM&amp;guid=ON&amp;script=0"/>
+    </div>
+    </noscript>
+</div>
+<div class="code5">
+    <!-- Google Code for EW PREMIUM Conversion Page -->
+    <script type="text/javascript">
+    /* <![CDATA[ */
+    var google_conversion_id = 930455254;
+    var google_conversion_language = "en";
+    var google_conversion_format = "3";
+    var google_conversion_color = "ffffff";
+    var google_conversion_label = "ZHcECPn5nHMQ1r3WuwM";
+    var google_remarketing_only = false;
+    /* ]]> */
+    </script>
+    <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+    </script>
+    <noscript>
+    <div style="display:inline;">
+    <img height="1" width="1" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/930455254/?label=ZHcECPn5nHMQ1r3WuwM&amp;guid=ON&amp;script=0"/>
+    </div>
+    </noscript>
+</div>
+<div class="code6">
+	<!-- Google Code for EW LUXURY Conversion Page -->
+	<script type="text/javascript">
+    /* <![CDATA[ */
+    var google_conversion_id = 930455254;
+    var google_conversion_language = "en";
+    var google_conversion_format = "3";
+    var google_conversion_color = "ffffff";
+    var google_conversion_label = "u5GGCIn4nHMQ1r3WuwM";
+    var google_remarketing_only = false;
+    /* ]]> */
+    </script>
+    <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+    </script>
+    <noscript>
+    <div style="display:inline;">
+    <img height="1" width="1" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/930455254/?label=u5GGCIn4nHMQ1r3WuwM&amp;guid=ON&amp;script=0"/>
+    </div>
+    </noscript>
+</div>
+<div class="code7">
+	<!-- Google Code for NA Gold V Conversion Page -->
+	<script type="text/javascript">
+    /* <![CDATA[ */
+    var google_conversion_id = 930455254;
+    var google_conversion_language = "en";
+    var google_conversion_format = "3";
+    var google_conversion_color = "ffffff";
+    var google_conversion_label = "r2x0CL7ClnMQ1r3WuwM";
+    var google_remarketing_only = false;
+    /* ]]> */
+    </script>
+    <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+    </script>
+    <noscript>
+    <div style="display:inline;">
+    <img height="1" width="1" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/930455254/?label=r2x0CL7ClnMQ1r3WuwM&amp;guid=ON&amp;script=0"/>
+    </div>
+    </noscript>
+
+</div>
+<div class="code8">
+	<!-- Google Code for NA Platinum V Conversion Page -->
+	<script type="text/javascript">
+    /* <![CDATA[ */
+    var google_conversion_id = 930455254;
+    var google_conversion_language = "en";
+    var google_conversion_format = "3";
+    var google_conversion_color = "ffffff";
+    var google_conversion_label = "ekv3CMrClnMQ1r3WuwM";
+    var google_remarketing_only = false;
+    /* ]]> */
+    </script>
+    <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+    </script>
+    <noscript>
+    <div style="display:inline;">
+    <img height="1" width="1" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/930455254/?label=ekv3CMrClnMQ1r3WuwM&amp;guid=ON&amp;script=0"/>
+    </div>
+    </noscript>
+    
+</div>
+<div class="code9">
+	<!-- Google Code for NA Diamond V Conversion Page -->
+	<script type="text/javascript">
+    /* <![CDATA[ */
+    var google_conversion_id = 930455254;
+    var google_conversion_language = "en";
+    var google_conversion_format = "3";
+    var google_conversion_color = "ffffff";
+    var google_conversion_label = "MF-eCIbDlnMQ1r3WuwM";
+    var google_remarketing_only = false;
+    /* ]]> */
+    </script>
+    <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+    </script>
+    <noscript>
+    <div style="display:inline;">
+    <img height="1" width="1" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/930455254/?label=MF-eCIbDlnMQ1r3WuwM&amp;guid=ON&amp;script=0"/>
+    </div>
+    </noscript>
+    
+</div>
+<div class="code10">
+	<!-- Google Code for EW Gold V Conversion Page -->
+	<script type="text/javascript">
+    /* <![CDATA[ */
+    var google_conversion_id = 930455254;
+    var google_conversion_language = "en";
+    var google_conversion_format = "3";
+    var google_conversion_color = "ffffff";
+    var google_conversion_label = "oD3-CJHPhHMQ1r3WuwM";
+    var google_remarketing_only = false;
+    /* ]]> */
+    </script>
+    <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+    </script>
+    <noscript>
+    <div style="display:inline;">
+    <img height="1" width="1" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/930455254/?label=oD3-CJHPhHMQ1r3WuwM&amp;guid=ON&amp;script=0"/>
+    </div>
+    </noscript>
+
+</div>
+<div class="code11">
+	<!-- Google Code for EW Platinum V Conversion Page -->
+	<script type="text/javascript">
+    /* <![CDATA[ */
+    var google_conversion_id = 930455254;
+    var google_conversion_language = "en";
+    var google_conversion_format = "3";
+    var google_conversion_color = "ffffff";
+    var google_conversion_label = "qy_KCKnPhHMQ1r3WuwM";
+    var google_remarketing_only = false;
+    /* ]]> */
+    </script>
+    <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+    </script>
+    <noscript>
+    <div style="display:inline;">
+    <img height="1" width="1" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/930455254/?label=qy_KCKnPhHMQ1r3WuwM&amp;guid=ON&amp;script=0"/>
+    </div>
+    </noscript>
+
+</div>
+<div class="code12">
+	<!-- Google Code for EW Diamond V Conversion Page -->
+	<script type="text/javascript">
+    /* <![CDATA[ */
+    var google_conversion_id = 930455254;
+    var google_conversion_language = "en";
+    var google_conversion_format = "3";
+    var google_conversion_color = "ffffff";
+    var google_conversion_label = "S2VoCK7ElnMQ1r3WuwM";
+    var google_remarketing_only = false;
+    /* ]]> */
+    </script>
+    <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+    </script>
+    <noscript>
+    <div style="display:inline;">
+    <img height="1" width="1" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/930455254/?label=S2VoCK7ElnMQ1r3WuwM&amp;guid=ON&amp;script=0"/>
+    </div>
+    </noscript>
+
+</div>
+<div class="code13">
+	<!-- Google Code for NA VIP Entry Package Conversion Page -->
+	<script type="text/javascript">
+    /* <![CDATA[ */
+    var google_conversion_id = 930455254;
+    var google_conversion_language = "en";
+    var google_conversion_format = "3";
+    var google_conversion_color = "ffffff";
+    var google_conversion_label = "-V2ICJrClnMQ1r3WuwM";
+    var google_remarketing_only = false;
+    /* ]]> */
+    </script>
+    <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+    </script>
+    <noscript>
+    <div style="display:inline;">
+    <img height="1" width="1" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/930455254/?label=-V2ICJrClnMQ1r3WuwM&amp;guid=ON&amp;script=0"/>
+    </div>
+    </noscript>
+
+</div>
+<div class="code14">
+	<!-- Google Code for NA VIP Premium Package Conversion Page -->
+	<script type="text/javascript">
+    /* <![CDATA[ */
+    var google_conversion_id = 930455254;
+    var google_conversion_language = "en";
+    var google_conversion_format = "3";
+    var google_conversion_color = "ffffff";
+    var google_conversion_label = "QHlLCMvAlnMQ1r3WuwM";
+    var google_remarketing_only = false;
+    /* ]]> */
+    </script>
+    <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+    </script>
+    <noscript>
+    <div style="display:inline;">
+    <img height="1" width="1" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/930455254/?label=QHlLCMvAlnMQ1r3WuwM&amp;guid=ON&amp;script=0"/>
+    </div>
+    </noscript>
+
+</div>
+<div class="code15">
+	<!-- Google Code for NA VIP God Like Package Conversion Page -->
+	<script type="text/javascript">
+    /* <![CDATA[ */
+    var google_conversion_id = 930455254;
+    var google_conversion_language = "en";
+    var google_conversion_format = "3";
+    var google_conversion_color = "ffffff";
+    var google_conversion_label = "QMHyCPv7nHMQ1r3WuwM";
+    var google_remarketing_only = false;
+    /* ]]> */
+    </script>
+    <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+    </script>
+    <noscript>
+    <div style="display:inline;">
+    <img height="1" width="1" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/930455254/?label=QMHyCPv7nHMQ1r3WuwM&amp;guid=ON&amp;script=0"/>
+    </div>
+    </noscript>
+
+</div>
+<div class="code16">
+	<!-- Google Code for EW VIP Entry Package Conversion Page -->
+	<script type="text/javascript">
+    /* <![CDATA[ */
+    var google_conversion_id = 930455254;
+    var google_conversion_language = "en";
+    var google_conversion_format = "3";
+    var google_conversion_color = "ffffff";
+    var google_conversion_label = "T_MMCP77nHMQ1r3WuwM";
+    var google_remarketing_only = false;
+    /* ]]> */
+    </script>
+    <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+    </script>
+    <noscript>
+    <div style="display:inline;">
+    <img height="1" width="1" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/930455254/?label=T_MMCP77nHMQ1r3WuwM&amp;guid=ON&amp;script=0"/>
+    </div>
+    </noscript>
+
+</div>
+<div class="code17">
+	<!-- Google Code for EW VIP Premium Package Conversion Page -->
+	<script type="text/javascript">
+    /* <![CDATA[ */
+    var google_conversion_id = 930455254;
+    var google_conversion_language = "en";
+    var google_conversion_format = "3";
+    var google_conversion_color = "ffffff";
+    var google_conversion_label = "5EunCIPGlnMQ1r3WuwM";
+    var google_remarketing_only = false;
+    /* ]]> */
+    </script>
+    <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+    </script>
+    <noscript>
+    <div style="display:inline;">
+    <img height="1" width="1" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/930455254/?label=5EunCIPGlnMQ1r3WuwM&amp;guid=ON&amp;script=0"/>
+    </div>
+    </noscript>
+
+</div>
+<div class="code18">
+	<!-- Google Code for EW VIP God Like Package Conversion Page -->
+	<script type="text/javascript">
+    /* <![CDATA[ */
+    var google_conversion_id = 930455254;
+    var google_conversion_language = "en";
+    var google_conversion_format = "3";
+    var google_conversion_color = "ffffff";
+    var google_conversion_label = "zIAOCIzGlnMQ1r3WuwM";
+    var google_remarketing_only = false;
+    /* ]]> */
+    </script>
+    <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+    </script>
+    <noscript>
+    <div style="display:inline;">
+    <img height="1" width="1" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/930455254/?label=zIAOCIzGlnMQ1r3WuwM&amp;guid=ON&amp;script=0"/>
+    </div>
+    </noscript>
+
+</div>
+
+</body>
+</html>

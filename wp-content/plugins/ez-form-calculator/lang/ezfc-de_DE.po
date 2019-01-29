@@ -1,0 +1,3260 @@
+# Loco Gettext template
+msgid ""
+msgstr ""
+"Project-Id-Version: ez Form Calculator Premium\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-05-06 12:50+0200\n"
+"PO-Revision-Date: 2016-05-06 15:13+0200\n"
+"Last-Translator: Michael Schuppenies <pansensalat@gmail.com>\n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Revision-Date: Sat Jun 27 2015 16:31:07 GMT+0200 (Mitteleuropäische "
+"Sommerzeit)\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: ajax-admin.php:24 ezfc-page-preview.php:14
+msgid "Unable to verify security nonce. Please refresh this page."
+msgstr ""
+"Sicherheitsnonce konnte nicht verifiziert werden. Bitte aktualisieren Sie "
+"diese Seite.\v"
+
+#: ajax-admin.php:127
+msgid "Empty form data or invalid file format"
+msgstr "Leere Formulardaten oder ungültiges Dateiformat"
+
+#: ajax-admin.php:139
+msgid "Unable to import elements."
+msgstr "Elemente konnten nicht importiert werden."
+
+#: ajax-admin.php:175
+msgid ""
+"Unable to save elements, please remove any special characters before saving."
+msgstr ""
+"Elemente konnten nicht gespeichert werden, bitte entfernen Sie alle "
+"Sonderzeichen."
+
+#: ajax-fileupload.php:44
+msgid "Filetype not allowed."
+msgstr "Dateityp nicht erlaubt."
+
+#: ajax.php:65
+msgid "Submission not allowed."
+msgstr "Eingabe nicht erlaubt."
+
+#: ajax.php:91
+msgid "Recaptcha failed, please try again."
+msgstr "Recaptcha ist fehlgeschlagen, bitte versuchen Sie es erneut."
+
+#: ajax.php:122
+msgid "Unable to get ReCaptchaResponse."
+msgstr "Kein ReCaptchaResponse."
+
+#: ajax.php:130
+msgid ""
+"Unable to use ReCaptcha since neither allow_url_fopen nor curl is installed."
+msgstr ""
+"ReCaptcha kann nicht verwendet werden, da allow_url_fopen deaktiviert und "
+"curl nicht installiert ist."
+
+#: class.ezfc_backend.php:67
+msgid "New form"
+msgstr "Neues Formular"
+
+#: class.ezfc_backend.php:70 class.ezfc_backend.php:1473
+msgid "Corrupt form data."
+msgstr "Korrupte Form-Datei"
+
+#: class.ezfc_backend.php:118
+msgid "Could not insert element data from template."
+msgstr "Elementdaten konnten nicht aus Template hinzugefügt werden."
+
+#: class.ezfc_backend.php:292
+msgid "Unable to add post"
+msgstr "Beitrag konnte nicht hinzugefügt werden"
+
+#: class.ezfc_backend.php:330
+msgid "Form cleared."
+msgstr "Formular zurückgesetzt."
+
+#: class.ezfc_backend.php:360
+msgid "Form deleted."
+msgstr "Formular gelöscht."
+
+#: class.ezfc_backend.php:364 widget.php:33
+msgid "No form selected."
+msgstr "Kein Formular ausgewählt."
+
+#: class.ezfc_backend.php:372
+#, php-format
+msgid "Unable to delete form submissions: %s"
+msgstr "Löschen nicht möglich: %s"
+
+#: class.ezfc_backend.php:374
+msgid "Submissions deleted."
+msgstr "Eintrag gelöscht."
+
+#: class.ezfc_backend.php:403
+msgid "Could not delete file from server."
+msgstr "Datei konnte nicht gelöscht werden."
+
+#: class.ezfc_backend.php:413
+msgid "File deleted."
+msgstr "Datei gelöscht."
+
+#: class.ezfc_backend.php:423 class.ezfc_backend.php:434
+#: class.ezfc_backend.php:474 class.ezfc_backend.php:485
+#: class.ezfc_backend.php:496 class.ezfc_backend.php:507
+#: class.ezfc_backend.php:561 class.ezfc_frontend.php:91
+msgid "No ID"
+msgstr "Keine ID angegeben"
+
+#: class.ezfc_backend.php:512
+msgid "No submissions found."
+msgstr "﻿Keine Einträge gefunden"
+
+#: class.ezfc_backend.php:584
+#, php-format
+msgid "Unable to delete form submission: %s"
+msgstr "Löschen nicht möglich: %s"
+
+#: class.ezfc_backend.php:586
+msgid "Submission deleted."
+msgstr "Eintrag gelöscht."
+
+#: class.ezfc_backend.php:622
+msgid "Could not insert template"
+msgstr "Template kann nicht eingefügt werden"
+
+#: class.ezfc_backend.php:638
+msgid "Template deleted."
+msgstr "Template gelöscht."
+
+#: class.ezfc_backend.php:656
+msgid "No settings"
+msgstr "Keine Einstellungen"
+
+#: class.ezfc_backend.php:720 class.ezfc_backend.php:1114
+msgid "Settings updated"
+msgstr "Einstellungen aktualisiert"
+
+#: class.ezfc_backend.php:732 class.ezfc_backend.php:901
+#: class.ezfc_frontend.php:157 class.ezfc_frontend.php:193
+msgid "No ID."
+msgstr "Keine ID angegeben"
+
+#: class.ezfc_backend.php:741 class.ezfc_backend.php:767
+#: class.ezfc_backend.php:998 class.ezfc_frontend.php:168
+#: class.ezfc_frontend.php:179
+msgid "No ID given."
+msgstr "Keine ID angegeben"
+
+#: class.ezfc_backend.php:838
+msgid "Could not insert element to form"
+msgstr "Element kann nicht eingefügt werden"
+
+#: class.ezfc_backend.php:873
+msgid "Element deleted."
+msgstr "Element gelöscht."
+
+#: class.ezfc_backend.php:881
+msgid "Failed to duplicate element."
+msgstr "Fehler beim Duplizieren des Elements"
+
+#: class.ezfc_backend.php:938
+msgid "Form elements update error:"
+msgstr "Formularelemente Update-Fehler:"
+
+#: class.ezfc_backend.php:1203 class.ezfc_frontend.php:70
+msgid "No preview id found."
+msgstr "Keine Vorschau id gefunden."
+
+#: class.ezfc_backend.php:1257
+msgid ""
+"Unable to create PDF directory. Please create a folder named 'ezfc-pdf' in "
+"the WP upload directory."
+msgstr ""
+"Das PDF-Verzeichnis konnte nicht erstellt werden. Bitte erstellen Sie ein "
+"Verzeichnis namens 'ezfc-pdf' im WP Upload Ordner."
+
+#: class.ezfc_backend.php:1277
+msgid ""
+"Unable to create index file in the PDF directory. Please create a blank file "
+"named 'index.php' in the pdf upload directory created by ez Form Calculator "
+"(see /wp-content/uploads/ezfc-pdf)."
+msgstr ""
+"Index-Datei konnte nicht im PDF-Verzeichnis erstellt werden. Bitte legen Sie "
+"eine leere Datei mit dem Namen 'index.php' im pdf-Upload-Verzeichnis an ( /"
+"wp-content/uploads/ezfc-pdf/ )."
+
+#: class.ezfc_backend.php:1494
+msgid "Data import complete."
+msgstr "Datenimport abgeschlossen."
+
+#: class.ezfc_backend.php:1501
+msgid "ez Form Calculator Test Email"
+msgstr "ez Form Calculator Test Email"
+
+#: class.ezfc_backend.php:1502
+msgid "This is a test email sent by ez Form Calculator."
+msgstr "Dies ist eine Test-Email von ez Form Calculator."
+
+#: class.ezfc_backend.php:1523 class.ezfc_backend.php:1538
+msgid "Mail successfully sent."
+msgstr "Ihre E-Mail wurde versendet."
+
+#: class.ezfc_backend.php:1526
+msgid "Unable to send mails:"
+msgstr "Emails konnten nicht versendet werden:"
+
+#: class.ezfc_backend.php:1538
+msgid "Unable to send mails."
+msgstr "Emails konnten nicht versendet werden."
+
+#: class.ezfc_frontend.php:48
+msgid "No id or name found."
+msgstr "Keine ID oder Name gefunden."
+
+#: class.ezfc_frontend.php:128
+msgid "No ref_id"
+msgstr "Kein ref_id"
+
+#: class.ezfc_frontend.php:207 class.ezfc_frontend.php:431
+msgid "No ID or no data."
+msgstr "Keine ID oder keine Daten."
+
+#: class.ezfc_frontend.php:309
+msgid "Please enter a valid date range."
+msgstr "Geben Sie ein gültiges Datum ein."
+
+#: class.ezfc_frontend.php:324
+msgid "Please enter a valid email address."
+msgstr "Bitte eine gültige Email-Adresse eingeben."
+
+#: class.ezfc_frontend.php:333
+msgid "Please check your email address."
+msgstr "Bitte überprüfen Sie Ihre E-Mail-Adresse."
+
+#: class.ezfc_frontend.php:346
+msgid "No file was uploaded yet."
+msgstr "Es wurde noch keine Datei hochgeladen."
+
+#: class.ezfc_frontend.php:352
+msgid "Please enter a valid number."
+msgstr "Bitte geben Sie eine gültige Nummer ein."
+
+#: class.ezfc_frontend.php:357
+msgid "Minimum value:"
+msgstr "Mindestwert:"
+
+#: class.ezfc_frontend.php:360
+msgid "Maximum value:"
+msgstr "Maximalwert"
+
+#: class.ezfc_frontend.php:463
+msgid "Element could not be found."
+msgstr "Element konnte nicht gefunden werden."
+
+#: class.ezfc_frontend.php:545
+msgid "Submission failed."
+msgstr "Eintrag fehlgeschlagen."
+
+#: class.ezfc_frontend.php:645
+#, php-format
+msgid "Unable to add product #%s to the cart."
+msgstr "Artikel #%s kann nicht in den Warenkorb hinzugefügt werden."
+
+#: class.ezfc_frontend.php:810 class.ezfc_settings.php:1987
+msgid "Total"
+msgstr "Gesamt"
+
+#: class.ezfc_frontend.php:899
+msgid "Files"
+msgstr "Dateien"
+
+#: class.ezfc_frontend.php:1075 class.ezfc_functions.php:299
+#: class.ezfc_functions.php:320 class.ezfc_functions.php:573
+#: class.ezfc_functions.php:593
+msgid "From"
+msgstr "Von"
+
+#: class.ezfc_frontend.php:1076 class.ezfc_functions.php:300
+#: class.ezfc_functions.php:321 class.ezfc_functions.php:575
+#: class.ezfc_functions.php:594
+msgid "To"
+msgstr "Bis"
+
+#: class.ezfc_frontend.php:1218
+msgid "day(s)"
+msgstr "Tag(e)"
+
+#: class.ezfc_frontend.php:1243
+msgid "No target found:"
+msgstr "Kein Ziel gefunden:"
+
+#: class.ezfc_frontend.php:1290
+msgid "Cannot divide by target factor 0"
+msgstr "Kann nicht durch Zielfaktor 0 teilen"
+
+#: class.ezfc_frontend.php:1370
+msgid "Price override"
+msgstr "Preisüberschreibung"
+
+#: class.ezfc_frontend.php:1398 class.ezfc_frontend.php:1403
+#: class.ezfc_frontend.php:1408 class.ezfc_frontend.php:1413
+#: class.ezfc_frontend.php:1418
+msgid "Discount:"
+msgstr "Rabatt:"
+
+#: class.ezfc_frontend.php:1836
+msgid ""
+"No id or name found. Correct syntax: [ezfc id='1' /] or [ezfc name='form-"
+"name' /]."
+msgstr ""
+"ID oder Name nicht gefunden. Korrekte Syntax: [ezfc id=\"1\" /] oder [ezfc "
+"name=\"Form Name\" /]."
+
+#: class.ezfc_frontend.php:1992 class.ezfc_settings.php:2002
+msgid "Request price"
+msgstr "Preisanfrage"
+
+#: class.ezfc_frontend.php:2342
+msgid "Confirmation"
+msgstr "Bestätigung"
+
+#: class.ezfc_frontend.php:2746
+msgid "Upload"
+msgstr "Hochladen"
+
+#: class.ezfc_frontend.php:3051
+msgid "File entry failed."
+msgstr "Dateieintrag fehlgeschlagen."
+
+#: class.ezfc_frontend.php:3053
+msgid "File entry saved."
+msgstr "Dateieintrag gespeichert."
+
+#: class.ezfc_frontend.php:3057
+msgid "No token."
+msgstr "Kein Token."
+
+#: class.ezfc_frontend.php:3065
+msgid "Unable to find submission."
+msgstr "Eintrag kann nicht gefunden werden"
+
+#: class.ezfc_functions.php:193 class.ezfc_functions.php:654 ezfc.php:295
+#: ezfc.php:716
+msgid "No"
+msgstr "Nein"
+
+#: class.ezfc_functions.php:194 class.ezfc_functions.php:655 ezfc.php:294
+#: ezfc.php:715
+msgid "Yes"
+msgstr "Ja"
+
+#: class.ezfc_functions.php:220 class.ezfc_functions.php:252
+msgid "Transparent"
+msgstr "Transparent"
+
+#: class.ezfc_functions.php:291
+msgid "Add closed days"
+msgstr "Geschlossenen Tage hinzufügen"
+
+#: class.ezfc_functions.php:301 class.ezfc_functions.php:322
+#: class.ezfc_functions.php:595
+msgid "Remove item"
+msgstr "Eintrag entfernen"
+
+#: class.ezfc_functions.php:417 ezfc.php:371
+msgid "Choose image"
+msgstr "Bild wählen"
+
+#: class.ezfc_functions.php:418
+msgid "Clear image"
+msgstr "Bild löschen"
+
+#: class.ezfc_functions.php:452
+msgid "No MailChimp lists found or wrong API key"
+msgstr "Keine MailChimp Listen gefunden oder falscher API-Schlüssel"
+
+#: class.ezfc_functions.php:470
+msgid "No Mailpoet lists found."
+msgstr "Keine Mailpoet Listen gefunden."
+
+#: class.ezfc_functions.php:565
+msgid "Add business hours"
+msgstr "Öffnungszeiten hinzufügen"
+
+#: class.ezfc_functions.php:625
+msgid "Monday"
+msgstr "Montag"
+
+#: class.ezfc_functions.php:626
+msgid "Tuesday"
+msgstr "Dienstag"
+
+#: class.ezfc_functions.php:627
+msgid "Wednesday"
+msgstr "Mittwoch"
+
+#: class.ezfc_functions.php:628
+msgid "Thursday"
+msgstr "Donnerstag"
+
+#: class.ezfc_functions.php:629
+msgid "Friday"
+msgstr "Freitag"
+
+#: class.ezfc_functions.php:630
+msgid "Saturday"
+msgstr "Samstag"
+
+#: class.ezfc_functions.php:631
+msgid "Sunday"
+msgstr "Sonntag"
+
+#: class.ezfc_functions.php:668
+msgid "Overwrite"
+msgstr "Überschreiben"
+
+#: class.ezfc_functions.php:704
+msgid "Unfortunately, 'unzip_file' is not installed on your webserver."
+msgstr "Leider ist \"unzip_file\" nicht auf Ihrem Webserver installiert."
+
+#: class.ezfc_functions.php:716
+msgid "Update has failed: unable to unzip files."
+msgstr "Update fehlgeschlagen: Dateien konnten nicht entpackt werden."
+
+#: class.ezfc_functions.php:721
+msgid "Update has failed: update directory does not exist."
+msgstr "Update ist fehlgeschlagen: Update-Verzeichnis ist nicht vorhanden."
+
+#: class.ezfc_functions.php:729
+msgid "Notice: unable to remove update directory.<br>"
+msgstr "Das Update-Verzeichnis konnte nicht entfernt werden. <br>"
+
+#: class.ezfc_functions.php:732
+msgid "Update successful!"
+msgstr "Aktualisierung erfolgreich!"
+
+#: class.ezfc_functions.php:782
+msgid "Function 'file_get_contents' does not exist."
+msgstr "Funktion \"file_get_contents\" ist nicht vorhanden."
+
+#: class.ezfc_functions.php:795
+msgid "Library ZipArchive is not installed on your webserver."
+msgstr "Bibliothek ZipArchive nicht auf Ihrem Webserver installiert."
+
+#: class.ezfc_functions.php:810
+msgid "Unable to create temporary file."
+msgstr "Temporäre Datei konnte nicht erstellt werden."
+
+#: class.ezfc_functions.php:844
+msgid "Temporary files deleted."
+msgstr "Temporäre Dateien gelöscht."
+
+#: class.ezfc_functions.php:945 class.ezfc_functions.php:1002
+msgid "Service is unavailable."
+msgstr "Dienst nicht verfügbar."
+
+#: class.ezfc_functions.php:951
+msgid "Unable to install template: no template."
+msgstr "Template konnte nicht installiert werden: kein Template."
+
+#: class.ezfc_functions.php:955
+msgid "Unable to install template: no data."
+msgstr "Template konnte nicht installiert werden: keine Daten."
+
+#: class.ezfc_functions.php:972
+#, php-format
+msgid "Template %s was installed."
+msgstr "Vorlage %s installiert."
+
+#: class.ezfc_functions.php:984
+msgid "Template not found."
+msgstr "Template nicht gefunden"
+
+#: class.ezfc_settings.php:11 class.ezfc_settings.php:15
+msgid "Input"
+msgstr "Input"
+
+#: class.ezfc_settings.php:12
+msgid "Basic input field with no restrictions"
+msgstr "Input-Feld ohne Einschränkungen"
+
+#: class.ezfc_settings.php:43 class.ezfc_settings.php:47
+msgid "Email"
+msgstr "Email"
+
+#: class.ezfc_settings.php:44
+msgid "Email input field"
+msgstr "Email Eingabefeld"
+
+#: class.ezfc_settings.php:74 class.ezfc_settings.php:78
+msgid "Textfield"
+msgstr "Textfeld"
+
+#: class.ezfc_settings.php:75
+msgid "Large text field"
+msgstr "Großes Textfeld"
+
+#: class.ezfc_settings.php:102 class.ezfc_settings.php:106
+msgid "Dropdown"
+msgstr "Dropdown"
+
+#: class.ezfc_settings.php:103
+msgid "Dropdown list"
+msgstr "Dropdown-Liste"
+
+#: class.ezfc_settings.php:133
+msgid "Radio Button"
+msgstr "Radio Button"
+
+#: class.ezfc_settings.php:134
+msgid "Used for single-choice elements."
+msgstr "Einzelauswahl"
+
+#: class.ezfc_settings.php:137
+msgid "Radio"
+msgstr "Radio Button"
+
+#: class.ezfc_settings.php:167 class.ezfc_settings.php:171
+msgid "Checkbox"
+msgstr "Checkbox"
+
+#: class.ezfc_settings.php:168
+msgid "Checky check!"
+msgstr "Checky Check!"
+
+#: class.ezfc_settings.php:201 class.ezfc_settings.php:205
+msgid "Numbers"
+msgstr "Nummernfeld"
+
+#: class.ezfc_settings.php:202
+msgid "Numbers only"
+msgstr "Nur Zahlen"
+
+#: class.ezfc_settings.php:248
+msgid "Date"
+msgstr "Datum"
+
+#: class.ezfc_settings.php:249 class.ezfc_settings.php:252
+msgid "Datepicker"
+msgstr "Datumsauswahl"
+
+#: class.ezfc_settings.php:282 class.ezfc_settings.php:286
+msgid "Image"
+msgstr "Bild"
+
+#: class.ezfc_settings.php:283
+msgid "Shows images"
+msgstr "Bilder anzeigen"
+
+#: class.ezfc_settings.php:305 class.ezfc_settings.php:309
+msgid "Hidden"
+msgstr "Hidden"
+
+#: class.ezfc_settings.php:306
+msgid "Hidden input field"
+msgstr "Versteckt Eingabefeld"
+
+#: class.ezfc_settings.php:338
+msgid "Line"
+msgstr "Linie"
+
+#: class.ezfc_settings.php:339
+msgid "Horizontal line"
+msgstr "Horizontale Linie"
+
+#: class.ezfc_settings.php:356 class.ezfc_settings.php:360
+msgid "HTML"
+msgstr "HTML"
+
+#: class.ezfc_settings.php:357
+msgid "Custom HTML or basic text"
+msgstr "Benutzerdefiniertes HTML oder einfachen Text"
+
+#: class.ezfc_settings.php:373 class.ezfc_settings.php:374
+msgid "Recaptcha"
+msgstr "Recaptcha"
+
+#: class.ezfc_settings.php:377
+msgid "Verification"
+msgstr "Überprüfung"
+
+#: class.ezfc_settings.php:396 class.ezfc_settings.php:397
+#: class.ezfc_settings.php:400
+msgid "File upload"
+msgstr "Datei-Upload"
+
+#: class.ezfc_settings.php:416 class.ezfc_settings.php:420
+msgid "Subtotal"
+msgstr "Subtotal"
+
+#: class.ezfc_settings.php:417
+msgid ""
+"This element holds the subtotal value up to the point the element is placed "
+"at."
+msgstr ""
+"Dieses Element enthält den Zwischenwert bis zu dem Punkt, an dem das Element "
+"platziert ist."
+
+#: class.ezfc_settings.php:450
+msgid "Payment"
+msgstr "Payment"
+
+#: class.ezfc_settings.php:451
+msgid "User can choose the payment type"
+msgstr "Der Benutzer kann die Zahlungsart wählen"
+
+#: class.ezfc_settings.php:454
+msgid "Payment type"
+msgstr "Zahlungsart"
+
+#: class.ezfc_settings.php:480 class.ezfc_settings.php:481
+#: class.ezfc_settings.php:484
+msgid "Timepicker"
+msgstr "Timepicker"
+
+#: class.ezfc_settings.php:511
+msgid "Step start"
+msgstr "Schritt Start"
+
+#: class.ezfc_settings.php:512
+msgid "Divide form into steps - Start of a step"
+msgstr "Formular in Schritte aufteilen - Start eines Schritts"
+
+#: class.ezfc_settings.php:515
+msgid "Step"
+msgstr "Schritt"
+
+#: class.ezfc_settings.php:527 class.ezfc_settings.php:531
+msgid "Step end"
+msgstr "Schritt Ende"
+
+#: class.ezfc_settings.php:528
+msgid "Divide form into steps - End of a step"
+msgstr "Formular in Schritte aufteilen - Ende eines Schritts"
+
+#: class.ezfc_settings.php:543 class.ezfc_settings.php:547
+msgid "Date range"
+msgstr "Date range"
+
+#: class.ezfc_settings.php:544
+msgid ""
+"Use this element when you want to calculate a date range (e.g. number of "
+"days)"
+msgstr ""
+"Verwenden Sie dieses Element, wenn ein Datumsbereich berechnet werden soll "
+"(zB Anzahl der Tage)."
+
+#: class.ezfc_settings.php:578 class.ezfc_settings.php:579
+#: class.ezfc_settings.php:582
+msgid "Colorpicker"
+msgstr "Colorpicker"
+
+#: class.ezfc_settings.php:602 class.ezfc_settings.php:606
+msgid "Set"
+msgstr "Set"
+
+#: class.ezfc_settings.php:603
+msgid ""
+"Apply a math operator to a set of elements (e.g. choose lowest / highest "
+"value, average, etc.)"
+msgstr ""
+"Mathematische Operation auf eine Reihe von Elementen anwenden (z.B. "
+"niedrigsten / höchsten Wert ermitteln, Mittelwert, etc.)"
+
+#: class.ezfc_settings.php:638 class.ezfc_settings.php:642
+msgid "Post"
+msgstr "Post"
+
+#: class.ezfc_settings.php:639
+msgid "Show the content of a WordPress post."
+msgstr "Zeigen den Inhalt eines Wordpress Posts."
+
+#: class.ezfc_settings.php:660
+msgid "Custom JS"
+msgstr "Custom JS"
+
+#: class.ezfc_settings.php:661
+msgid ""
+"Custom JavaScript code. Uses price as argument and returns the price (no "
+"need to add function name or value)."
+msgstr ""
+"Benutzerdefinierter JavaScript-Code. Verwendet Preis als Argument und gibt "
+"den Preis als Rückgabewert zurück (keine Notwendigkeit, Funktionsnamen "
+"hinzuzufügen)."
+
+#: class.ezfc_settings.php:664
+msgid "Custom Calculation"
+msgstr "Individuelle Berechnung"
+
+#: class.ezfc_settings.php:679 class.ezfc_settings.php:680
+#: class.ezfc_settings.php:683
+msgid "Group"
+msgstr "Gruppe"
+
+#: class.ezfc_settings.php:695 class.ezfc_settings.php:699
+msgid "Placeholder"
+msgstr "Platzhalter"
+
+#: class.ezfc_settings.php:696
+msgid "Placeholders have no effect on the form calculation."
+msgstr "Platzhalter haben keinen Einfluss auf die Formberechnung."
+
+#: class.ezfc_settings.php:708 class.ezfc_settings.php:712
+msgid "Spacer"
+msgstr "Abstand"
+
+#: class.ezfc_settings.php:709
+msgid "Add vertical spacing."
+msgstr "Fügt einen vertikalen Abstand hinzu."
+
+#: class.ezfc_settings.php:726
+msgid "Tax"
+msgstr "Steuer"
+
+#: class.ezfc_settings.php:727
+msgid ""
+"Adds tax to the total price. This element should be placed at the end of the "
+"form as it takes the subtotal value into calculation. Tax value can be "
+"changed in the calculation section."
+msgstr ""
+"Fügt Steuer auf den Gesamtpreis hinzu. Dieses Element sollte am Ende des "
+"Formulars platziert werden, da das Element den Zwischenwert in die "
+"Berechnung mit einbezieht. Der Steuerwert kann im Berechnungsabschnitt "
+"geändert werden."
+
+#: class.ezfc_settings.php:730
+msgid "Tax (20%)"
+msgstr "Steuern (20%)"
+
+#: class.ezfc_settings.php:762 class.ezfc_settings.php:812
+#: class.ezfc_settings.php:816
+msgid "Quantity discount"
+msgstr "Mengenrabatt"
+
+#: class.ezfc_settings.php:763
+msgid ""
+"Numbers element with quantity discount. Please note that any factor entered "
+"will not be taken into calculations, so the 'raw' value will always be used."
+msgstr ""
+"Nummernfeld mit Mengenrabatt. Bitte beachten Sie, dass numerische Faktoren "
+"nicht in Berechnungen einbezogen werden, sondern nur der eingetragene Wert."
+
+#: class.ezfc_settings.php:766 class.ezfc_settings.php:767
+msgid "Quantity Discount"
+msgstr "Mengenrabatt"
+
+#: class.ezfc_settings.php:813
+msgid ""
+"Numbers element with quantity discount. Please note that any factor entered "
+"will not be taken into calculations, so the raw value will always be used."
+msgstr ""
+"Nummernfeld mit Mengenrabatt. Bitte beachten Sie, dass numerische Faktoren "
+"nicht in Berechnungen einbezogen werden, sondern nur der eingetragene Wert."
+
+#: class.ezfc_settings.php:848
+msgid "Add to email list"
+msgstr "Zur Email-Liste hinzufügen"
+
+#: class.ezfc_settings.php:849
+msgid ""
+"This checkbox element asks the user to sign up for an email list (MailChimp "
+"or MailPoet). Do not change the value of the checkbox or else the user will "
+"not be added to the list. Make sure to set 'Enable Mailchimp' or 'Enable "
+"Mailpoet' to 'Yes' in the form options."
+msgstr ""
+"Dieses Checkbox-Element fordert den Benutzer auf, sich in eine E-Mail-Liste "
+"(MailChimp oder MailPoet) einzutragen. Ändern Sie nicht den Wert der "
+"Checkbox und stellen Sie sicher, dass die Option 'Enable Mailchimp' oder "
+"'Enable Mailpoet' in den Formular-Optionen aktiviert ist."
+
+#: class.ezfc_settings.php:852
+msgid "Newsletter"
+msgstr "Newsletter"
+
+#: class.ezfc_settings.php:857
+msgid "Sign me up!"
+msgstr "Melden Sie mich an!"
+
+#: class.ezfc_settings.php:889
+msgid "Custom CSS"
+msgstr "Benutzerdefiniertes CSS"
+
+#: class.ezfc_settings.php:889
+msgid "Add your custom styles here."
+msgstr "Fügen Sie Ihre eigenen benutzerdefinierten Stile hinzu"
+
+#: class.ezfc_settings.php:890
+msgid "Required text"
+msgstr "Erforderlicher Text"
+
+#: class.ezfc_settings.php:890
+msgid "This text is shown below the form."
+msgstr "Dieser Text wird unterhalb des Formulars angezeigt."
+
+#: class.ezfc_settings.php:891
+msgid "Required element text"
+msgstr "Erforderliches Element Text"
+
+#: class.ezfc_settings.php:891
+msgid ""
+"This text will be shown when a required element is empty. Default: 'This "
+"field is required'"
+msgstr ""
+"Dieser Text wird angezeigt, wenn ein erforderliches Element ist leer. "
+"Standard: 'Dieses Feld ist erforderlich \""
+
+#: class.ezfc_settings.php:892
+msgid "Datepicker language"
+msgstr "Datumsauswahl Sprache"
+
+#: class.ezfc_settings.php:892
+msgid "Datepicker language. Default: 'en'"
+msgstr "Datumsauswahl Sprache. Standard: 'en'"
+
+#: class.ezfc_settings.php:893
+msgid "Load datepicker languages"
+msgstr "Laden Datumsauswahl-Sprachen"
+
+#: class.ezfc_settings.php:893
+msgid ""
+"Load additional datepicker languages. Only set this option to 'Yes' when "
+"using a different language than English since all languages will be loaded "
+"with an additional ~40kb file. If you know what you are doing, you can "
+"remove all unneccessary data from the file /ez-form-calculator-premium/"
+"assets/js/jquery.ui.u18n.all.min.js"
+msgstr ""
+"Laden Sie zusätzliche Sprachen zur Datumsauswahl. Aktivieren Sie diese "
+"Option nur, wenn eine andere Sprache als Englisch verwendet werden soll, da "
+"alle Sprachen geladen werden (~40kb-Datei). Wenn Sie wissen, was Sie tun, "
+"können Sie alle unnötigen Daten zu entfernen aus der Datei /ez-form-"
+"calculator-premium/assets/js/jquery.ui.u18n.all.min.js"
+
+#: class.ezfc_settings.php:894
+msgid "Auto scroll steps"
+msgstr "Automatisches Scrollen bei Schritten"
+
+#: class.ezfc_settings.php:894
+msgid "Automatically scroll to top upon changing steps."
+msgstr "Scrolle automatisch zum Anfang des Formulars bei Schrittwechseln."
+
+#: class.ezfc_settings.php:895
+msgid "Loading icon"
+msgstr "Ladesymbol"
+
+#: class.ezfc_settings.php:895
+msgid "This icon will be shown when the form is submitted."
+msgstr "Dieses Symbol wird angezeigt, wenn das Formular übermittelt wird."
+
+#: class.ezfc_settings.php:896
+msgid "Scroll steps"
+msgstr ""
+
+#: class.ezfc_settings.php:896
+msgid "The browser window scrolls to the top of the form automatically."
+msgstr ""
+
+#: class.ezfc_settings.php:897
+msgid "Scroll offset"
+msgstr ""
+
+#: class.ezfc_settings.php:897
+msgid "Top offset when scrolling (in px)"
+msgstr ""
+
+#: class.ezfc_settings.php:901 class.ezfc_settings.php:1948
+msgid "Price format"
+msgstr ""
+
+#: class.ezfc_settings.php:901
+#, php-format
+msgid "See %s for syntax documentation"
+msgstr ""
+
+#: class.ezfc_settings.php:902
+msgid "Price format thousands separator"
+msgstr ""
+
+#: class.ezfc_settings.php:902
+msgid "Thousands separator"
+msgstr ""
+
+#: class.ezfc_settings.php:903
+msgid "Price format decimal point"
+msgstr ""
+
+#: class.ezfc_settings.php:903
+msgid "Decimal point separator"
+msgstr ""
+
+#: class.ezfc_settings.php:907
+msgid "Price format decimals"
+msgstr ""
+
+#: class.ezfc_settings.php:907
+msgid "Number of decimals in email prices"
+msgstr ""
+
+#: class.ezfc_settings.php:908
+msgid "Enable SMTP"
+msgstr ""
+
+#: class.ezfc_settings.php:909
+msgid "SMTP Host"
+msgstr ""
+
+#: class.ezfc_settings.php:910
+msgid "SMTP Username"
+msgstr ""
+
+#: class.ezfc_settings.php:911
+msgid "SMTP Password"
+msgstr ""
+
+#: class.ezfc_settings.php:912
+msgid "SMTP Port"
+msgstr ""
+
+#: class.ezfc_settings.php:913
+msgid "SMTP Encryption"
+msgstr ""
+
+#: class.ezfc_settings.php:921
+msgid "PayPal API username"
+msgstr ""
+
+#: class.ezfc_settings.php:921
+msgid ""
+"See <a href='https://developer.paypal.com/docs/classic/api/"
+"apiCredentials/'>PayPal docs</a> to read how to get your API credentials."
+msgstr ""
+
+#: class.ezfc_settings.php:922
+msgid "PayPal API password"
+msgstr ""
+
+#: class.ezfc_settings.php:923
+msgid "PayPal API signature"
+msgstr ""
+
+#: class.ezfc_settings.php:924
+msgid "Return URL"
+msgstr ""
+
+#: class.ezfc_settings.php:924
+msgid ""
+"The return URL is the location where buyers return to when a payment has "
+"been succesfully authorized. <br>You need to use this shortcode on the "
+"return page/post or else it will not work:<br>[ezfc_verify]"
+msgstr ""
+
+#: class.ezfc_settings.php:925
+msgid "Cancel URL"
+msgstr ""
+
+#: class.ezfc_settings.php:925
+msgid ""
+"The cancelURL is the location buyers are sent to when they hit the cancel "
+"button during authorization of payment during the PayPal flow."
+msgstr ""
+
+#: class.ezfc_settings.php:926
+msgid "Currency code"
+msgstr ""
+
+#: class.ezfc_settings.php:927
+msgid "Use sandbox"
+msgstr ""
+
+#: class.ezfc_settings.php:927
+msgid "Set to 'yes' for testing purposes."
+msgstr ""
+
+#: class.ezfc_settings.php:928
+msgid "Account required"
+msgstr "Konto erforderlich"
+
+#: class.ezfc_settings.php:928
+msgid ""
+"Whether a PayPal account is required or not. If an account is optional, you "
+"still need to do the following step: Log in to your PayPal account, go to "
+"the Profile subtab, click on Website Payment Preferences under the Selling "
+"Preferences column, and check the yes/no box under PayPal Account Optional."
+msgstr ""
+
+#: class.ezfc_settings.php:934
+msgid "Save PDF files"
+msgstr ""
+
+#: class.ezfc_settings.php:935
+#, php-format
+msgid ""
+"Generated PDF files will be saved on the server if the option is set to "
+"'Yes'. The save folder is %s."
+msgstr ""
+
+#: class.ezfc_settings.php:941
+msgid "Allow remote content"
+msgstr ""
+
+#: class.ezfc_settings.php:942
+msgid ""
+"If this setting is set to true, the PDF library (DOMPDF) will access remote "
+"sites for images and CSS files as required."
+msgstr ""
+
+#: class.ezfc_settings.php:949
+msgid "Recaptcha public key"
+msgstr ""
+
+#: class.ezfc_settings.php:950
+msgid "Recaptcha private key"
+msgstr ""
+
+#: class.ezfc_settings.php:956 class.ezfc_settings.php:2118
+msgid "Load custom styling"
+msgstr ""
+
+#: class.ezfc_settings.php:957 class.ezfc_settings.php:2119
+msgid "Only enable this option if you want to use the styling below."
+msgstr ""
+
+#: class.ezfc_settings.php:973 class.ezfc_settings.php:2137
+msgid "Font"
+msgstr ""
+
+#: class.ezfc_settings.php:983 class.ezfc_settings.php:2148
+msgid "Font size"
+msgstr ""
+
+#: class.ezfc_settings.php:993 class.ezfc_settings.php:2159
+msgid "Background color"
+msgstr ""
+
+#: class.ezfc_settings.php:1003 class.ezfc_settings.php:2170
+msgid "Background image"
+msgstr ""
+
+#: class.ezfc_settings.php:1015 class.ezfc_settings.php:2211
+msgid "Background size"
+msgstr ""
+
+#: class.ezfc_settings.php:1025 class.ezfc_settings.php:2193
+msgid "Background repeat"
+msgstr ""
+
+#: class.ezfc_settings.php:1035 class.ezfc_settings.php:2223
+msgid "Text color"
+msgstr ""
+
+#: class.ezfc_settings.php:1046 class.ezfc_settings.php:2234
+msgid "Input background color"
+msgstr ""
+
+#: class.ezfc_settings.php:1056 class.ezfc_settings.php:2245
+msgid "Input text color"
+msgstr ""
+
+#: class.ezfc_settings.php:1066 class.ezfc_settings.php:2256
+msgid "Input border"
+msgstr ""
+
+#: class.ezfc_settings.php:1067 class.ezfc_settings.php:1128
+#: class.ezfc_settings.php:1178 class.ezfc_settings.php:2257
+#: class.ezfc_settings.php:2321 class.ezfc_settings.php:2374
+msgid "Color, size (px), style, border-radius (px)"
+msgstr ""
+
+#: class.ezfc_settings.php:1078 class.ezfc_settings.php:2269
+msgid "Input padding"
+msgstr ""
+
+#: class.ezfc_settings.php:1089 class.ezfc_settings.php:2281
+msgid "Submit button image"
+msgstr ""
+
+#: class.ezfc_settings.php:1105 class.ezfc_settings.php:2298
+msgid "Submit button background"
+msgstr ""
+
+#: class.ezfc_settings.php:1116 class.ezfc_settings.php:2309
+msgid "Submit button text color"
+msgstr ""
+
+#: class.ezfc_settings.php:1127 class.ezfc_settings.php:2320
+msgid "Submit button border"
+msgstr ""
+
+#: class.ezfc_settings.php:1141 class.ezfc_settings.php:2334
+msgid "Step button image"
+msgstr ""
+
+#: class.ezfc_settings.php:1157 class.ezfc_settings.php:2351
+msgid "Step button background"
+msgstr ""
+
+#: class.ezfc_settings.php:1167 class.ezfc_settings.php:2362
+msgid "Step button text color"
+msgstr ""
+
+#: class.ezfc_settings.php:1177 class.ezfc_settings.php:2373
+msgid "Step button border"
+msgstr ""
+
+#: class.ezfc_settings.php:1189 class.ezfc_settings.php:2386
+msgid "Step title font size"
+msgstr ""
+
+#: class.ezfc_settings.php:1200 class.ezfc_settings.php:2398
+msgid "Fixed price font size"
+msgstr ""
+
+#: class.ezfc_settings.php:1210 class.ezfc_settings.php:2409
+msgid "Fixed price background color"
+msgstr ""
+
+#: class.ezfc_settings.php:1220 class.ezfc_settings.php:2420
+msgid "Fixed price color"
+msgstr ""
+
+#: class.ezfc_settings.php:1231 class.ezfc_settings.php:2510
+msgid "Form padding"
+msgstr ""
+
+#: class.ezfc_settings.php:1241 class.ezfc_settings.php:2521
+msgid "Form width"
+msgstr ""
+
+#: class.ezfc_settings.php:1250 class.ezfc_settings.php:2532
+msgid "Form height"
+msgstr ""
+
+#: class.ezfc_settings.php:1260 class.ezfc_settings.php:2543
+msgid "Overflow-x"
+msgstr ""
+
+#: class.ezfc_settings.php:1280 class.ezfc_settings.php:2564
+msgid "Overflow-y"
+msgstr ""
+
+#: class.ezfc_settings.php:1300 class.ezfc_settings.php:2585
+msgid "Vertical spacing"
+msgstr ""
+
+#: class.ezfc_settings.php:1312
+msgid "Integrate with WooCommerce"
+msgstr ""
+
+#: class.ezfc_settings.php:1312
+msgid ""
+"Integrate with WooCommerce. Please be aware that on a single product page, "
+"the product price and add-to-cart button will be hidden since the plugin "
+"handles this."
+msgstr ""
+
+#: class.ezfc_settings.php:1313
+msgid "'Added to cart' text"
+msgstr ""
+
+#: class.ezfc_settings.php:1313
+msgid "This text will be displayed after a submission was added to the cart."
+msgstr ""
+
+#: class.ezfc_settings.php:1314
+msgid "Add forms to products"
+msgstr ""
+
+#: class.ezfc_settings.php:1314
+msgid ""
+"When this option is enabled, forms will be added to products automatically. "
+"If you want to show individual forms for products, please make sure you add "
+"a custom field to the product:<br>\n"
+"\t\t\t\t\tcustom field name: ezfc_form_id<br>custom field value: &lt;"
+"form_id&gt;<br>\n"
+"\t\t\t\t\tIf you want to show one form for all products, please enter a form "
+"ID in 'Global form ID' below.<br>\n"
+"\t\t\t\t\t<strong>This will replace the 'Add to cart'-button from "
+"Woocommerce!</strong><br>\n"
+"\t\t\t\t\tMore information here: <a href='http://ez-form-calculator."
+"ezplugins.de/documentation/woocommerce-integration/' target='_blank'>ezfc "
+"Woocommerce Integration</a>"
+msgstr ""
+
+#: class.ezfc_settings.php:1319
+msgid "Global form ID"
+msgstr ""
+
+#: class.ezfc_settings.php:1319
+msgid ""
+"Form with this ID will be added to the WooCommerce product when 'Add forms "
+"to products' is set to 'Yes'"
+msgstr ""
+
+#: class.ezfc_settings.php:1320
+msgid "Show selected values in checkout"
+msgstr ""
+
+#: class.ezfc_settings.php:1320
+msgid "Show the selected values in a table on the checkout page"
+msgstr ""
+
+#: class.ezfc_settings.php:1321
+msgid "Checkout details text"
+msgstr ""
+
+#: class.ezfc_settings.php:1321
+msgid ""
+"If 'Show selected values in checkout' is enabled, display this text above "
+"the details table."
+msgstr ""
+
+#: class.ezfc_settings.php:1322
+msgid "Checkout details values"
+msgstr ""
+
+#: class.ezfc_settings.php:1322
+msgid ""
+"Details text in checkout: 'Full Details' shows all values and calculations. "
+"'Simple details' shows values and prices. 'Values only' shows the selected "
+"values only. <strong>Note: only applies to products added after this values "
+"was changed.</strong>"
+msgstr ""
+
+#: class.ezfc_settings.php:1323 class.ezfc_settings.php:1724
+msgid "Full details (result)"
+msgstr ""
+
+#: class.ezfc_settings.php:1324 class.ezfc_settings.php:1725
+msgid "Simple details (result_simple)"
+msgstr ""
+
+#: class.ezfc_settings.php:1325 class.ezfc_settings.php:1726
+msgid "Values only (result_values)"
+msgstr ""
+
+#: class.ezfc_settings.php:1326 class.ezfc_settings.php:1727
+msgid "Submitted values only (result_values_submitted)"
+msgstr ""
+
+#: class.ezfc_settings.php:1328
+msgid "Editable cart items"
+msgstr ""
+
+#: class.ezfc_settings.php:1328
+msgid ""
+"Customers can edit the submitted form in the cart. When set to 'Yes', an "
+"editable link will be added to relevant cart items."
+msgstr ""
+
+#: class.ezfc_settings.php:1329
+msgid "Edit text"
+msgstr ""
+
+#: class.ezfc_settings.php:1329
+msgid "Text of the edit link."
+msgstr ""
+
+#: class.ezfc_settings.php:1329 ezfc.php:464
+msgid "Edit"
+msgstr ""
+
+#: class.ezfc_settings.php:1330
+msgid "Form display hook"
+msgstr ""
+
+#: class.ezfc_settings.php:1330
+msgid ""
+"WooCommerce hook when forms are added to products (for a full list, see <a "
+"href='http://docs.woothemes.com/document/hooks/' target='_blank'>docs."
+"woothemes.com</a>)"
+msgstr ""
+
+#: class.ezfc_settings.php:1331
+msgid "WooCommerce product id"
+msgstr ""
+
+#: class.ezfc_settings.php:1331
+msgid ""
+"<strong>NOTE:</strong> this value is deprecated since v2.7.3 and has no "
+"effect - set the WooCommerce product id in the form options"
+msgstr ""
+
+#: class.ezfc_settings.php:1340
+msgid "User roles"
+msgstr ""
+
+#: class.ezfc_settings.php:1340
+msgid "Check which user role has access to edit this plugin."
+msgstr ""
+
+#: class.ezfc_settings.php:1341
+msgid "Mailchimp API key"
+msgstr ""
+
+#: class.ezfc_settings.php:1341
+msgid ""
+"<a href='http://kb.mailchimp.com/accounts/management/about-api-keys'>How to "
+"find your API key</a> (mailchimp.com)"
+msgstr ""
+
+#: class.ezfc_settings.php:1342
+msgid "Content filter"
+msgstr ""
+
+#: class.ezfc_settings.php:1342
+msgid ""
+"WordPress filter to apply html elements on. You might want to use "
+"'the_content' if HTML elements look wrong (without quotes)."
+msgstr ""
+
+#: class.ezfc_settings.php:1343
+msgid "Use tinyMCE"
+msgstr ""
+
+#: class.ezfc_settings.php:1343
+msgid "Use tinyMCE editor in HTML elements."
+msgstr ""
+
+#: class.ezfc_settings.php:1344
+msgid "Enable debug mode"
+msgstr ""
+
+#: class.ezfc_settings.php:1349
+msgid "Add default jQuery UI stylesheet"
+msgstr "jQuery UI Standard-Stylesheet hinzufügen"
+
+#: class.ezfc_settings.php:1349
+msgid ""
+"If your theme looks differently after installing this plugin, set this "
+"option to 'No' and see again. It may break due to the default jQuery UI "
+"stylesheet."
+msgstr ""
+
+#: class.ezfc_settings.php:1350
+msgid "Keep data after uninstall"
+msgstr ""
+
+#: class.ezfc_settings.php:1350
+msgid ""
+"The plugin will keep all plugin-related data in the database when "
+"uninstalling. Only select 'Yes' if you want to upgrade the script."
+msgstr ""
+
+#: class.ezfc_settings.php:1351
+msgid "CSS label width"
+msgstr ""
+
+#: class.ezfc_settings.php:1351
+msgid "Width of the labels. Default: 15em"
+msgstr ""
+
+#: class.ezfc_settings.php:1351
+msgid "Deprecated"
+msgstr ""
+
+#: class.ezfc_settings.php:1417
+msgid "Email recipient"
+msgstr ""
+
+#: class.ezfc_settings.php:1418
+msgid ""
+"Notifications will be sent to this email. Leave blank for no notifications."
+msgstr ""
+
+#: class.ezfc_settings.php:1426
+msgid "Sender name"
+msgstr ""
+
+#: class.ezfc_settings.php:1427
+msgid ""
+"Sender name in emails. Use this syntax: Sendername &lt;sender@mail.com&gt;"
+msgstr ""
+
+#: class.ezfc_settings.php:1435
+msgid "Sender name (admin)"
+msgstr ""
+
+#: class.ezfc_settings.php:1436
+msgid ""
+"Sender name in emails sent to the admin (recipient). Use this syntax: "
+"Sendername &lt;sender@mail.com&gt;"
+msgstr ""
+
+#: class.ezfc_settings.php:1444
+msgid "Email subject"
+msgstr ""
+
+#: class.ezfc_settings.php:1453
+msgid "Email text"
+msgstr ""
+
+#: class.ezfc_settings.php:1454 class.ezfc_settings.php:2108
+msgid ""
+"Email text sent to the user. Use {{result}} for submission details, "
+"{{result_simple}} for no calculation details, {{result_values}} for values "
+"only. Use {{Elementname}} for single element values (where Elementname is "
+"the internal name of the element). Use {{files}} for attached files (you "
+"should not send these to the customer for security reasons)."
+msgstr ""
+
+#: class.ezfc_settings.php:1454 class.ezfc_settings.php:1472
+#: class.ezfc_settings.php:1490 class.ezfc_settings.php:2108
+msgid "View all placeholders"
+msgstr ""
+
+#: class.ezfc_settings.php:1462
+msgid "Admin email subject"
+msgstr ""
+
+#: class.ezfc_settings.php:1471
+msgid "Admin email text"
+msgstr ""
+
+#: class.ezfc_settings.php:1472
+msgid ""
+"Email text sent to the admin. Use {{result}} for submission details. Use "
+"{{Elementname}} for single element values (where Elementname is the internal "
+"name of the element). Use {{files}} for attached files (you should not send "
+"these to the customer for security reasons)"
+msgstr ""
+
+#: class.ezfc_settings.php:1480
+msgid "Email Paypal subject"
+msgstr ""
+
+#: class.ezfc_settings.php:1489
+msgid "Email Paypal text"
+msgstr ""
+
+#: class.ezfc_settings.php:1490
+msgid "Email text sent to the user when paid with PayPal."
+msgstr ""
+
+#: class.ezfc_settings.php:1498
+msgid "Send files as attachment"
+msgstr ""
+
+#: class.ezfc_settings.php:1499
+msgid "Uploaded files will be sent to the admin email recipient as attachments"
+msgstr ""
+
+#: class.ezfc_settings.php:1507
+msgid "Show HTML elements"
+msgstr ""
+
+#: class.ezfc_settings.php:1508
+msgid ""
+"HTML elements can be shown in emails. You need to make sure that HTML "
+"elements have the option 'Show_in_email' enabled as well."
+msgstr ""
+
+#: class.ezfc_settings.php:1516
+msgid "Add linebreaks"
+msgstr ""
+
+#: class.ezfc_settings.php:1517
+msgid ""
+"Automatically add linebreaks to emails. If emails contain a lot of blank "
+"space, you may want to disable this option."
+msgstr ""
+
+#: class.ezfc_settings.php:1525
+msgid "Use utf8 subject"
+msgstr ""
+
+#: class.ezfc_settings.php:1526
+msgid ""
+"When special characters aren't shown properly in email subjects, set this "
+"option to 'Yes'."
+msgstr ""
+
+#: class.ezfc_settings.php:1534
+msgid "Enable MailChimp"
+msgstr ""
+
+#: class.ezfc_settings.php:1535
+msgid "Enable MailChimp integration"
+msgstr ""
+
+#: class.ezfc_settings.php:1543
+msgid "Mailchimp list"
+msgstr ""
+
+#: class.ezfc_settings.php:1544 class.ezfc_settings.php:1562
+msgid "Email addresses will be added to this list upon form submission."
+msgstr ""
+
+#: class.ezfc_settings.php:1552
+msgid "Enable Mailpoet"
+msgstr ""
+
+#: class.ezfc_settings.php:1553
+msgid "Enable Mailpoet integration"
+msgstr ""
+
+#: class.ezfc_settings.php:1561
+msgid "Mailpoet list"
+msgstr ""
+
+#: class.ezfc_settings.php:1573
+msgid "Submission message"
+msgstr ""
+
+#: class.ezfc_settings.php:1574
+msgid "Frontend message after successful submission."
+msgstr ""
+
+#: class.ezfc_settings.php:1582
+msgid "Spam protection in seconds"
+msgstr ""
+
+#: class.ezfc_settings.php:1583
+msgid ""
+"Every x seconds, a user (identified by IP address) can add an entry. "
+"Default: 60."
+msgstr ""
+
+#: class.ezfc_settings.php:1591
+msgid "Submission enabled"
+msgstr ""
+
+#: class.ezfc_settings.php:1600
+msgid "Minimum submission value"
+msgstr ""
+
+#: class.ezfc_settings.php:1609
+msgid "Minimum submission value text"
+msgstr ""
+
+#: class.ezfc_settings.php:1610
+msgid ""
+"This text will be displayed when the user's total value is less than the "
+"minimum value."
+msgstr ""
+
+#: class.ezfc_settings.php:1618
+msgid "Hide all forms on submission"
+msgstr ""
+
+#: class.ezfc_settings.php:1619
+msgid ""
+"If this option is set to 'yes', all forms on the relevant page will be "
+"hidden upon submission (useful for product comparisons)."
+msgstr ""
+
+#: class.ezfc_settings.php:1627
+msgid "Clear selected values when hiding"
+msgstr ""
+
+#: class.ezfc_settings.php:1628
+msgid ""
+"When elements are hidden, clear the selected values (numbers, dropdowns, "
+"radio buttons etc.). Please note that preselected values will be cleared as "
+"well!"
+msgstr ""
+
+#: class.ezfc_settings.php:1637 ezfc-page-settings.php:105
+msgid "Reset"
+msgstr ""
+
+#: class.ezfc_settings.php:1639
+msgid "Enable reset button"
+msgstr ""
+
+#: class.ezfc_settings.php:1640
+msgid ""
+"The reset button is used to reset the form elements to their initial values."
+msgstr ""
+
+#: class.ezfc_settings.php:1648
+msgid "Reset form after submission"
+msgstr ""
+
+#: class.ezfc_settings.php:1649
+msgid ""
+"When the form was submitted successfully, reset the form to its initial "
+"values."
+msgstr ""
+
+#: class.ezfc_settings.php:1657
+msgid "Redirect URL"
+msgstr ""
+
+#: class.ezfc_settings.php:1658
+msgid ""
+"Redirect users to this URL upon form submission. Note: URL must start with "
+"http://"
+msgstr ""
+
+#: class.ezfc_settings.php:1666
+msgid "Refresh page after submission"
+msgstr ""
+
+#: class.ezfc_settings.php:1667
+msgid ""
+"The current page will be refreshed after the user has submitted the form. "
+"This will not work if you have entered a URL in the 'Redirect URL' option."
+msgstr ""
+
+#: class.ezfc_settings.php:1675
+msgid "Redirect timer"
+msgstr ""
+
+#: class.ezfc_settings.php:1676
+msgid ""
+"Duration after which the user will be redirected when the conditional action "
+"'redirect' is executed (in seconds)."
+msgstr ""
+
+#: class.ezfc_settings.php:1683
+#, php-format
+msgid "You will be redirected in %s seconds..."
+msgstr ""
+
+#: class.ezfc_settings.php:1684
+msgid "Redirect text"
+msgstr ""
+
+#: class.ezfc_settings.php:1685
+#, php-format
+msgid ""
+"This text will be shown when the user will be redirected (conditional action "
+"only). Use %s as the placeholder for the redirect timer."
+msgstr ""
+
+#: class.ezfc_settings.php:1693
+msgid "Redirect forward values"
+msgstr ""
+
+#: class.ezfc_settings.php:1694
+msgid ""
+"When redirecting to another page, the submitted values can be forwarded by "
+"GET-parameters. The elements' IDs will be used as keys. Please note that you "
+"have to enter a redirection URL."
+msgstr ""
+
+#: class.ezfc_settings.php:1702
+msgid "Show summary"
+msgstr ""
+
+#: class.ezfc_settings.php:1703
+msgid "Show a summary of the selected values at the end of the form."
+msgstr ""
+
+#: class.ezfc_settings.php:1710
+msgid "Summary"
+msgstr ""
+
+#: class.ezfc_settings.php:1711
+msgid "Summary text"
+msgstr ""
+
+#: class.ezfc_settings.php:1712
+msgid "This text will be shown above the summary."
+msgstr ""
+
+#: class.ezfc_settings.php:1720
+msgid "Summary values"
+msgstr ""
+
+#: class.ezfc_settings.php:1721
+msgid ""
+"If summary is enabled, the plugin will show a table of submitted values. In "
+"this option, you can select which summary table should be shown (default: "
+"values only)."
+msgstr ""
+
+#: class.ezfc_settings.php:1734 class.ezfc_settings.php:1738
+msgid "Check your order"
+msgstr ""
+
+#: class.ezfc_settings.php:1735
+msgid "Summary button text"
+msgstr ""
+
+#: class.ezfc_settings.php:1736
+msgid "Text on the summary submit button."
+msgstr ""
+
+#: class.ezfc_settings.php:1744
+msgid "Hard submit"
+msgstr ""
+
+#: class.ezfc_settings.php:1745
+msgid ""
+"Form submissions will not be processed by the plugin. Useful when you want "
+"to process the values through your own functon."
+msgstr ""
+
+#: class.ezfc_settings.php:1753
+msgid "Verify steps"
+msgstr ""
+
+#: class.ezfc_settings.php:1754
+msgid "Verify required element values after each step."
+msgstr ""
+
+#: class.ezfc_settings.php:1765
+msgid "Show required char"
+msgstr ""
+
+#: class.ezfc_settings.php:1774
+msgid "Submit text"
+msgstr ""
+
+#: class.ezfc_settings.php:1775
+msgid "Text in submit buttons"
+msgstr ""
+
+#: class.ezfc_settings.php:1783
+msgid "Submit text WooCommerce"
+msgstr ""
+
+#: class.ezfc_settings.php:1784
+msgid "Text used for WooCommerce submissions"
+msgstr ""
+
+#: class.ezfc_settings.php:1792
+msgid "Submit button CSS class"
+msgstr ""
+
+#: class.ezfc_settings.php:1801
+msgid "Form theme"
+msgstr ""
+
+#: class.ezfc_settings.php:1810
+msgid "Datepicker format"
+msgstr ""
+
+#: class.ezfc_settings.php:1811
+msgid "See jqueryui.com for date formats."
+msgstr ""
+
+#: class.ezfc_settings.php:1819
+msgid "Timepicker format"
+msgstr ""
+
+#: class.ezfc_settings.php:1820
+msgid "See php.net for time formats"
+msgstr ""
+
+#: class.ezfc_settings.php:1828
+msgid "Form class"
+msgstr ""
+
+#: class.ezfc_settings.php:1829
+msgid "Additional css classes for the form"
+msgstr ""
+
+#: class.ezfc_settings.php:1837
+msgid "Price scroll top position"
+msgstr ""
+
+#: class.ezfc_settings.php:1838
+msgid ""
+"Top position of the price with fixed position. Some designs may overlay a "
+"navigation (or something else) on the top of the page. Enter a number "
+"without any dimension here."
+msgstr ""
+
+#: class.ezfc_settings.php:1846
+msgid "Number counter duration"
+msgstr ""
+
+#: class.ezfc_settings.php:1847
+msgid ""
+"Duration of the number counter to count after each change (in ms). Set to 0 "
+"to disable the counter."
+msgstr ""
+
+#: class.ezfc_settings.php:1855
+msgid "Number counter interval"
+msgstr ""
+
+#: class.ezfc_settings.php:1856
+msgid "Interval rate at which the counter updates the numbers (in ms)."
+msgstr ""
+
+#: class.ezfc_settings.php:1864
+msgid "Disable scroll to error element"
+msgstr ""
+
+#: class.ezfc_settings.php:1865
+msgid ""
+"Depending on your theme, scrolling to the element which caused an error "
+"message may not work correctly. If this option is enabled, scrolling will be "
+"disabled."
+msgstr ""
+
+#: class.ezfc_settings.php:1873
+msgid "Scroll to success message"
+msgstr ""
+
+#: class.ezfc_settings.php:1874
+msgid "Scroll to success message after the form was submitted."
+msgstr ""
+
+#: class.ezfc_settings.php:1882
+msgid "Use 12 columns grid"
+msgstr ""
+
+#: class.ezfc_settings.php:1883
+msgid ""
+"Forms are divided into 6 columns by default. Enable this option to use a 12 "
+"column grid (experimental)."
+msgstr ""
+
+#: class.ezfc_settings.php:1891
+msgid "Show step indicator"
+msgstr ""
+
+#: class.ezfc_settings.php:1899
+#, php-format
+msgid "Step %d"
+msgstr ""
+
+#: class.ezfc_settings.php:1900
+msgid "Step indicator text"
+msgstr ""
+
+#: class.ezfc_settings.php:1901
+#, php-format
+msgid ""
+"Text on step indicator. The placeholder %d will be replaced with the step "
+"numbers."
+msgstr ""
+
+#: class.ezfc_settings.php:1909
+msgid "Use step titles"
+msgstr ""
+
+#: class.ezfc_settings.php:1910
+msgid "Use titles in step-start elements instead of step indicator text."
+msgstr ""
+
+#: class.ezfc_settings.php:1918
+msgid "Center form"
+msgstr ""
+
+#: class.ezfc_settings.php:1919
+msgid "All elements will be centered."
+msgstr ""
+
+#: class.ezfc_settings.php:1930
+msgid "Currency"
+msgstr ""
+
+#: class.ezfc_settings.php:1939
+msgid "Currency position"
+msgstr ""
+
+#: class.ezfc_settings.php:1949
+msgid ""
+"If left blank, the global price format will be used. See numeraljs.com for "
+"syntax documentation"
+msgstr ""
+
+#: class.ezfc_settings.php:1957
+msgid "Price label"
+msgstr ""
+
+#: class.ezfc_settings.php:1958
+msgid "Calculated field label (default: Price)"
+msgstr ""
+
+#: class.ezfc_settings.php:1966
+msgid "Show element prices"
+msgstr ""
+
+#: class.ezfc_settings.php:1975
+msgid "Total price position"
+msgstr ""
+
+#: class.ezfc_settings.php:1976
+msgid ""
+"Price can be displayed above or below the form (or both) as well as fixed "
+"(scrolls with window)"
+msgstr ""
+
+#: class.ezfc_settings.php:1984
+msgid "Total price text"
+msgstr ""
+
+#: class.ezfc_settings.php:1985
+msgid "This text will be shown before the total price in emails."
+msgstr ""
+
+#: class.ezfc_settings.php:1993
+msgid "Show total price in email"
+msgstr ""
+
+#: class.ezfc_settings.php:1994
+msgid ""
+"Whether the total price of a submission should be shown or not. (Disable "
+"this option when you don't have a calculation form)"
+msgstr ""
+
+#: class.ezfc_settings.php:2003
+msgid "Enable this option if you do not want to show the price immediately."
+msgstr ""
+
+#: class.ezfc_settings.php:2011
+msgid "Request price text"
+msgstr ""
+
+#: class.ezfc_settings.php:2012
+msgid "Text in request price button"
+msgstr ""
+
+#: class.ezfc_settings.php:2020
+msgid "Price text before request"
+msgstr ""
+
+#: class.ezfc_settings.php:2032
+msgid "Force PayPal payment"
+msgstr ""
+
+#: class.ezfc_settings.php:2033
+msgid ""
+"Enabling this option will force the user to use PayPal. If you want to let "
+"the user choose how to pay, disable this option and add the Payment element "
+"(do not change the paypal value)."
+msgstr ""
+
+#: class.ezfc_settings.php:2041
+msgid "Submit text PayPal"
+msgstr ""
+
+#: class.ezfc_settings.php:2042
+msgid "Text used for PayPal checkouts"
+msgstr ""
+
+#: class.ezfc_settings.php:2050
+msgid "PayPal payment success text"
+msgstr ""
+
+#: class.ezfc_settings.php:2051
+msgid ""
+"This text will be displayed when the user has successfully paid and returns "
+"to the site."
+msgstr ""
+
+#: class.ezfc_settings.php:2059
+msgid "Item name"
+msgstr ""
+
+#: class.ezfc_settings.php:2060
+msgid "This text will be displayed as item name on the PayPal checkout page."
+msgstr ""
+
+#: class.ezfc_settings.php:2068
+msgid "Item description"
+msgstr ""
+
+#: class.ezfc_settings.php:2069
+msgid ""
+"This text will be displayed as description below the item name on the PayPal "
+"checkout page."
+msgstr ""
+
+#: class.ezfc_settings.php:2079
+msgid "Enable PDF integration"
+msgstr ""
+
+#: class.ezfc_settings.php:2080
+msgid ""
+"When the form is submitted, a PDF file will be created with the content from "
+"'PDF Text'."
+msgstr ""
+
+#: class.ezfc_settings.php:2088
+msgid "Send PDF to admin"
+msgstr ""
+
+#: class.ezfc_settings.php:2089
+msgid ""
+"The created PDF file will be sent to all recipients as email attachment."
+msgstr ""
+
+#: class.ezfc_settings.php:2097
+msgid "Send PDF to customer"
+msgstr ""
+
+#: class.ezfc_settings.php:2098
+msgid "The created PDF file will be sent to the customer as email attachment."
+msgstr ""
+
+#: class.ezfc_settings.php:2107
+msgid "PDF text"
+msgstr ""
+
+#: class.ezfc_settings.php:2182
+msgid "Background attachment"
+msgstr ""
+
+#: class.ezfc_settings.php:2432
+msgid "Summary table width"
+msgstr ""
+
+#: class.ezfc_settings.php:2443
+msgid "Summary table even row"
+msgstr ""
+
+#: class.ezfc_settings.php:2454
+msgid "Summary table odd row"
+msgstr ""
+
+#: class.ezfc_settings.php:2465
+msgid "Summary table text color"
+msgstr ""
+
+#: class.ezfc_settings.php:2476
+msgid "Summary total row color"
+msgstr ""
+
+#: class.ezfc_settings.php:2487
+msgid "Summary total text color"
+msgstr ""
+
+#: class.ezfc_settings.php:2498
+msgid "Summary table padding"
+msgstr ""
+
+#: class.ezfc_settings.php:2600
+msgid "WooCommerce Product ID"
+msgstr ""
+
+#: class.ezfc_settings.php:2601
+msgid "WooCommerce product ID for this form"
+msgstr ""
+
+#: class.ezfc_settings.php:2609
+msgid "Disable WooCommerce for this form"
+msgstr ""
+
+#: class.ezfc_settings.php:2610
+msgid ""
+"In case you don't want to add products from this form (e.g. use it as a "
+"contact form), you can set this to 'Yes'."
+msgstr ""
+
+#: class.ezfc_settings.php:2618
+msgid "Categories"
+msgstr ""
+
+#: class.ezfc_settings.php:2619
+msgid ""
+"Add form to these product categories only. Separate categories by comma. "
+"<strong>Use category slug, not name!</strong>. Leave blank to add the form "
+"to all categories."
+msgstr ""
+
+#: ezfc-page-help.php:14
+msgid "Logs cleared."
+msgstr ""
+
+#: ezfc-page-help.php:56
+#, php-format
+msgid "PayPal successfully verified your %s credentials."
+msgstr "PayPal hat Ihre %s Anmeldeinformationen erfolgreich überprüft."
+
+#: ezfc-page-help.php:59
+#, php-format
+msgid "Error while validating %s credentials:"
+msgstr "Es trat ein Fehler bei der Validierung Ihrer Daten auf (%s):"
+
+#: ezfc-page-help.php:61
+#, php-format
+msgid ""
+"Please note that Sandbox API credentials are different! See %s to read how "
+"to get your API credentials."
+msgstr ""
+"Bitte beachten Sie, dass Sandbox API Anmeldeinformationen anders sind! Sehen "
+"Sie auf %s nach, wie Sie Ihre API-Daten erhalten."
+
+#: ezfc-page-help.php:76
+#, php-format
+msgid "Empty %s"
+msgstr ""
+
+#: ezfc-page-help.php:86 ezfc-page-wizard.php:64
+msgid "PayPal Return Page"
+msgstr ""
+
+#: ezfc-page-help.php:95 ezfc-page-wizard.php:73
+msgid "PayPal Cancel Page"
+msgstr ""
+
+#: ezfc-page-help.php:96 ezfc-page-wizard.php:74
+msgid "PayPal payment was cancelled."
+msgstr ""
+
+#: ezfc-page-help.php:102 ezfc-page-wizard.php:80
+msgid "Unable to create PayPal pages."
+msgstr ""
+
+#: ezfc-page-help.php:142 ezfc.php:143
+msgid "Help / debug"
+msgstr "Hilfe / debug"
+
+#: ezfc-page-help.php:144
+msgid "Open documentation site"
+msgstr ""
+
+#: ezfc-page-help.php:148
+#, php-format
+msgid "If you have found any bugs, please report them to %s. Thank you!"
+msgstr ""
+
+#: ezfc-page-help.php:167
+#, php-format
+msgid "Debug mode is %s"
+msgstr ""
+
+#: ezfc-page-help.php:167
+msgid "active"
+msgstr "aktiv"
+
+#: ezfc-page-help.php:167
+msgid "inactive"
+msgstr ""
+
+#: ezfc-page-help.php:179
+msgid "Environment Vars"
+msgstr ""
+
+#: ezfc-page-help.php:198
+msgid "Tests"
+msgstr ""
+
+#: ezfc-page-help.php:201
+msgid "Emails"
+msgstr ""
+
+#: ezfc-page-help.php:206
+msgid "Send test mail"
+msgstr "Sende Test-Email"
+
+#: ezfc-page-help.php:219
+msgid "Live"
+msgstr ""
+
+#: ezfc-page-help.php:220
+msgid "Sandbox"
+msgstr ""
+
+#: ezfc-page-help.php:223
+msgid "Test PayPal integration"
+msgstr ""
+
+#: ezfc-page-help.php:228
+msgid ""
+"The plugin can create all relevant PayPal sites for you automatically. The "
+"plugin will create 2 new sites with the relevant shortcodes. Please note "
+"that if you change the permalink of the pages, you need to update the pages "
+"in the global settings as well."
+msgstr ""
+
+#: ezfc-page-help.php:232
+msgid "Create PayPal sites"
+msgstr ""
+
+#: ezfc-page-importexport.php:14
+msgid "Data imported."
+msgstr "Daten importiert."
+
+#: ezfc-page-importexport.php:23
+msgid "Unable to import form data from file."
+msgstr "Elemente konnten nicht aus Formulardaten importiert werden."
+
+#: ezfc-page-importexport.php:44
+msgid "Unable to download export data."
+msgstr "Exportdaten konnten nicht heruntergeladen werden."
+
+#: ezfc-page-importexport.php:73
+msgid "Import / Export data"
+msgstr "Import / Export-Daten"
+
+#: ezfc-page-importexport.php:85 ezfc-page-main.php:321
+msgid "Export data"
+msgstr "Datenexport"
+
+#: ezfc-page-importexport.php:90
+msgid "Download export data"
+msgstr "Exportdatei herunterladen"
+
+#: ezfc-page-importexport.php:91
+msgid "Clear temporary export files"
+msgstr "Temporäre Export-Dateien löschen"
+
+#: ezfc-page-importexport.php:101 ezfc-page-importexport.php:109
+msgid "Import text data"
+msgstr "Textdaten importieren"
+
+#: ezfc-page-importexport.php:104
+msgid "Paste form data here:"
+msgstr "Inhalt hier einfügen."
+
+#: ezfc-page-importexport.php:107
+msgid "Preserve form IDs"
+msgstr ""
+
+#: ezfc-page-importexport.php:118 ezfc-page-main.php:301
+msgid "Import file"
+msgstr "Datei importieren"
+
+#: ezfc-page-importexport.php:121
+msgid "Import exported file here:"
+msgstr "Exportierte Datei hier importieren:"
+
+#: ezfc-page-importexport.php:124
+msgid "Upload and import file"
+msgstr "Datei hochladen und importieren"
+
+#: ezfc-page-licensing.php:27 ezfc-page-licensing.php:50
+#, php-format
+msgid "Unknown error: %s"
+msgstr ""
+
+#: ezfc-page-licensing.php:56
+msgid "License registered."
+msgstr "Lizenz wurde erfolgreich registriert."
+
+#: ezfc-page-licensing.php:56
+msgid "License not registered."
+msgstr "Lizenz nicht registriert."
+
+#: ezfc-page-licensing.php:71 ezfc.php:144
+msgid "Licensing"
+msgstr "Lizenzierung"
+
+#: ezfc-page-licensing.php:72
+msgid ""
+"In order to receive automatic updates, please register your purchase code "
+"here."
+msgstr ""
+"Um automatische Updates zu erhalten, registrieren Sie Ihren Lizenzcode "
+"(purchase code) hier."
+
+#: ezfc-page-licensing.php:73
+msgid ""
+"Only one license per site is allowed. If you uninstall the plugin from a "
+"site, the license will be automatically removed from the site so you can "
+"register it somewhere else."
+msgstr ""
+"Nur eine Lizenz pro Seite ist zulässig. Wenn Sie das Plugin von einer "
+"Website deinstallieren, wird die Lizenz automatisch von der Website "
+"entfernt, so dass Sie es woanders registrieren können."
+
+#: ezfc-page-licensing.php:74
+#, php-format
+msgid "Please report any licensing problems to %s."
+msgstr "Bitte melden Sie alle Lizenzprobleme an %s."
+
+#: ezfc-page-licensing.php:88
+msgid "Current licensing status:"
+msgstr "Aktueller Lizenzierungsstatus:"
+
+#: ezfc-page-licensing.php:91
+msgid "The plugin will be licensed for:"
+msgstr "Das Plugin wird lizenziert für:"
+
+#: ezfc-page-licensing.php:95
+msgid "Purchase code"
+msgstr "Purchase-Code"
+
+#: ezfc-page-licensing.php:100 ezfc.php:154
+msgid "Register license"
+msgstr "Lizenz registrieren"
+
+#: ezfc-page-licensing.php:102
+msgid "Thank your for activating your copy of ez Form Calculator! :)"
+msgstr "Vielen Dank für die Aktivierung Ihrer Kopie von ez Form Calculator! :)"
+
+#: ezfc-page-licensing.php:103
+msgid "Licensed for:"
+msgstr "Zugelassen für:"
+
+#: ezfc-page-licensing.php:106
+msgid "Revoke license"
+msgstr "Lizenz widerrufen"
+
+#: ezfc-page-licensing.php:108
+msgid "The plugin cannot be licensed on a local machine."
+msgstr "Das Plugin kann nicht auf einem lokalen Rechner lizenziert werden."
+
+#: ezfc-page-main.php:54
+msgid ""
+"It seems that you have manually updated the plugin. Please perform the "
+"following update:"
+msgstr ""
+"Es scheint, dass Sie das Plugin manuell aktualisiert. Bitte führen Sie das "
+"folgende Update aus:"
+
+#: ezfc-page-main.php:56 ezfc-page-settings.php:94
+msgid "Manual update"
+msgstr "Manuelles Update"
+
+#: ezfc-page-main.php:68
+msgid "No post selected."
+msgstr ""
+
+#: ezfc-page-main.php:85
+msgid "Overview"
+msgstr "Übersicht"
+
+#: ezfc-page-main.php:96 ezfc-page-main.php:112
+msgid "Add form"
+msgstr "Formular hinzufügen"
+
+#: ezfc-page-main.php:101
+msgid "Blank"
+msgstr "Leer"
+
+#: ezfc-page-main.php:113
+msgid "Delete template"
+msgstr "Template löschen"
+
+#: ezfc-page-main.php:114 ezfc-page-main.php:296
+msgid "Import form"
+msgstr "Formular importieren"
+
+#: ezfc-page-main.php:121 ezfc-page-submissions.php:31
+msgid "Actions"
+msgstr "Aktionen"
+
+#: ezfc-page-main.php:124
+msgid "Update form"
+msgstr "Formular aktualisieren"
+
+#: ezfc-page-main.php:125
+msgid "Save / update form to post"
+msgstr "Speichern / Direkt in Beitrag speichern"
+
+#: ezfc-page-main.php:126
+msgid "Preview form"
+msgstr ""
+
+#: ezfc-page-main.php:127
+msgid "Options"
+msgstr "Optionen"
+
+#: ezfc-page-main.php:131
+msgid "Show form"
+msgstr "Formular anzeigen"
+
+#: ezfc-page-main.php:132
+msgid "Show submissions"
+msgstr "Einreichungen anzeigen"
+
+#: ezfc-page-main.php:136
+msgid "Duplicate form"
+msgstr "Formular duplizieren"
+
+#: ezfc-page-main.php:137
+msgid "Save current form as template"
+msgstr "Speichern das aktuelle Formular als Template"
+
+#: ezfc-page-main.php:141
+msgid "Show form export data"
+msgstr "Zeige Export-Daten"
+
+#: ezfc-page-main.php:142
+msgid "Download form"
+msgstr "Formular herunterladen"
+
+#: ezfc-page-main.php:146
+msgid "Clear form (delete all elements)"
+msgstr "Form zurücksetzen (alle Elemente löschen)"
+
+#: ezfc-page-main.php:147
+msgid "Delete form"
+msgstr "Formular löschen"
+
+#: ezfc-page-main.php:151
+msgid "Toggle element info"
+msgstr ""
+
+#: ezfc-page-main.php:158
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: ezfc-page-main.php:168 ezfc-page-submissions.php:47
+msgid "Forms"
+msgstr "Formulare"
+
+#: ezfc-page-main.php:189
+msgid "Form elements"
+msgstr "Formularelemente"
+
+#: ezfc-page-main.php:192
+msgid ""
+"<p>There are no elements in this form. You can add elements from the 'Add "
+"elements' section in the right sidebar.</p><p>Click on an element to add it "
+"to the end of the form or drag and drop to the desired position.</p>"
+msgstr ""
+
+#: ezfc-page-main.php:205
+msgid "Name"
+msgstr "Name"
+
+#: ezfc-page-main.php:208
+msgid "Add elements"
+msgstr "Elemente hinzufügen"
+
+#: ezfc-page-main.php:211
+msgid "Basic"
+msgstr "Basis"
+
+#: ezfc-page-main.php:218
+msgid "Calculation"
+msgstr "Berechnung"
+
+#: ezfc-page-main.php:225
+msgid "Other"
+msgstr "Sonstiges"
+
+#: ezfc-page-main.php:232
+msgid "Steps"
+msgstr "Schritte"
+
+#: ezfc-page-main.php:239
+msgid "Predefined"
+msgstr ""
+
+#: ezfc-page-main.php:291
+msgid "Update options"
+msgstr "Optionen aktualisieren"
+
+#: ezfc-page-main.php:298
+msgid "Import data"
+msgstr "Daten importieren"
+
+#: ezfc-page-main.php:302
+msgid "The form will be imported automatically as soon as you select a file."
+msgstr ""
+
+#: ezfc-page-main.php:303
+msgid "Filetype allowed: .zip"
+msgstr "Dateityp erlaubt: .zip"
+
+#: ezfc-page-main.php:320
+msgid "Export form"
+msgstr "Formular exportieren"
+
+#: ezfc-page-main.php:326
+msgid "Icons"
+msgstr "Icons"
+
+#: ezfc-page-main.php:340
+msgid "Custom calculation functions"
+msgstr ""
+
+#: ezfc-page-main.php:344
+msgid ""
+"Get the value from an element with the specific ID as the first parameter. "
+"The parameter is_text should be set to true if you do not want numbers "
+"returned since parseFloat() is used by default. Example:<br>"
+msgstr ""
+
+#: ezfc-page-main.php:354 ezfc-page-templates.php:82 ezfc.php:145
+msgid "Preview"
+msgstr "Vorschau"
+
+#: ezfc-page-main.php:357
+msgid "Please rate!"
+msgstr "Bitte bewerte dieses Plugin!"
+
+#: ezfc-page-preview.php:6
+msgid "This page is intended for preview purposes."
+msgstr ""
+
+#: ezfc-page-settings-form.php:43 ezfc.php:139
+msgid "Form settings"
+msgstr "Formular Einstellungen"
+
+#: ezfc-page-settings-form.php:44
+msgid ""
+"These options can be changed individually in each form. Saving these options "
+"will be applied to new forms only."
+msgstr ""
+
+#: ezfc-page-settings-form.php:45
+msgid ""
+"If you want to override these settings to all forms, please check the option "
+"'Overwrite settings' below."
+msgstr ""
+
+#: ezfc-page-settings-form.php:48 ezfc-page-settings.php:53
+msgid "Settings saved."
+msgstr "Einstellungen aktualisiert"
+
+#: ezfc-page-settings-form.php:91
+msgid "Overwrite settings"
+msgstr ""
+
+#: ezfc-page-settings-form.php:95
+msgid ""
+"Checking this option will overwrite <strong>ALL</strong> existing form "
+"settings!"
+msgstr ""
+
+#: ezfc-page-settings-form.php:101 ezfc-page-settings.php:115
+msgid "Save"
+msgstr "Speichern"
+
+#: ezfc-page-settings.php:50 ezfc.php:141
+msgid "Global settings"
+msgstr "Globale Einstellungen"
+
+#: ezfc-page-settings.php:78
+#, php-format
+msgid ""
+"If you want to use PayPal payment, please follow all steps in the PayPal "
+"integration guide here: %s. Alternatively, the plugin can create all "
+"necessary sites on the Help / debug page."
+msgstr ""
+
+#: ezfc-page-settings.php:78
+msgid "PayPal Integration Guide"
+msgstr ""
+
+#: ezfc-page-settings.php:98
+msgid ""
+"Checking this option will perform certain database changes. Check this if "
+"you recently updated the script as this will perform necessary changes. "
+"<strong>Please make sure to backup your form data before!"
+msgstr ""
+
+#: ezfc-page-settings.php:109
+msgid ""
+"Complete reset of this plugin. <strong>This will reset all existing data. "
+"Use with caution.</strong>"
+msgstr ""
+
+#: ezfc-page-settings.php:120
+msgid "Price preview (currency does not apply here)"
+msgstr "Preis-Vorschau (Währung gilt hier nicht)"
+
+#: ezfc-page-settings.php:121
+msgid "You can change the currency and price label in the form options."
+msgstr ""
+
+#: ezfc-page-settings.php:124
+msgid "Predefined price formats: "
+msgstr ""
+
+#: ezfc-page-settings.php:125
+msgid "Default"
+msgstr ""
+
+#: ezfc-page-settings.php:126
+msgid "European"
+msgstr ""
+
+#: ezfc-page-settings.php:127
+msgid "Always show decimal numbers"
+msgstr ""
+
+#: ezfc-page-settings.php:132
+msgid "Original price"
+msgstr ""
+
+#: ezfc-page-settings.php:132
+msgid "Formatted price"
+msgstr ""
+
+#: ezfc-page-submissions.php:20 ezfc.php:140
+msgid "Form submissions"
+msgstr ""
+
+#: ezfc-page-submissions.php:34
+msgid "Delete all submissions of the selected form."
+msgstr ""
+
+#: ezfc-page-submissions.php:34
+msgid "Delete form submissions"
+msgstr ""
+
+#: ezfc-page-submissions.php:38
+msgid "Download form submissions as .csv file."
+msgstr ""
+
+#: ezfc-page-submissions.php:38
+msgid "Download CSV"
+msgstr ""
+
+#: ezfc-page-submissions.php:68
+msgid "Submissions"
+msgstr ""
+
+#: ezfc-page-templates.php:24
+msgid "Please select a template"
+msgstr ""
+
+#: ezfc-page-templates.php:28
+msgid "Browse templates"
+msgstr "Templates durchsuchen"
+
+#: ezfc-page-templates.php:29 ezfc-page-templates.php:146
+msgid "Submit template"
+msgstr "Template einreichen"
+
+#: ezfc-page-templates.php:38
+msgid "Template Browser"
+msgstr "Template Browser"
+
+#: ezfc-page-templates.php:78
+msgid "Downloads"
+msgstr "Downloads"
+
+#: ezfc-page-templates.php:86
+msgid "Install"
+msgstr "Installieren"
+
+#: ezfc-page-templates.php:88
+#, php-format
+msgid "Requires version %s"
+msgstr "Erfordert Version %s"
+
+#: ezfc-page-templates.php:98
+msgid "No templates available."
+msgstr ""
+
+#: ezfc-page-templates.php:109
+msgid ""
+"You can submit your own templates to share with the community. We will "
+"review the template and if it fits for public purpose, we will add it to the "
+"list."
+msgstr ""
+
+#: ezfc-page-templates.php:113
+msgid "Please note that we will not expose any personal data."
+msgstr ""
+
+#: ezfc-page-templates.php:118
+msgid "Which template do you want to submit?"
+msgstr "Welches Template wollen Sie einreichen?"
+
+#: ezfc-page-templates.php:131
+msgid "Your name or website"
+msgstr "Ihr Name oder Website"
+
+#: ezfc-page-templates.php:136
+msgid "Your email address"
+msgstr "Ihre E-Mail Adresse"
+
+#: ezfc-page-templates.php:141
+msgid "What is the form about?"
+msgstr "Worum geht es in diesem Formular?"
+
+#: ezfc-page-update.php:27
+msgid "Unknown error."
+msgstr "Unbekannter Fehler."
+
+#: ezfc-page-update.php:37 ezfc.php:147
+msgid "Update"
+msgstr "Update"
+
+#: ezfc-page-update.php:38
+msgid "You can manually update the plugin here."
+msgstr ""
+
+#: ezfc-page-update.php:51
+msgid "Choose the update file"
+msgstr "Wählen Sie die Update-Datei"
+
+#: ezfc-page-update.php:53
+msgid ""
+"Please backup your data before updating! You can export all data on the "
+"'Import / Export' page."
+msgstr ""
+"Bitte sichern Sie Ihre Daten vor der Aktualisierung! Sie können alle Daten "
+"auf dem \"Import / Export\" Seite exportieren."
+
+#: ezfc-page-update.php:55
+msgid ""
+"The update file should be named 'ez-form-calculator-premium-wordpress-plugin."
+"zip'."
+msgstr ""
+
+#: ezfc-page-update.php:61
+msgid "Upload and update"
+msgstr "Hochladen und aktualisieren"
+
+#: ezfc-page-wizard.php:92
+msgid "Options saved."
+msgstr ""
+
+#: ezfc-page-wizard.php:107 ezfc.php:148
+msgid "Wizard"
+msgstr ""
+
+#: ezfc.php:142
+msgid "Import / export"
+msgstr "Import/Export"
+
+#: ezfc.php:142
+msgid "Import / Export"
+msgstr "Import / Export"
+
+#: ezfc.php:146
+msgid "Templates"
+msgstr "Templates"
+
+#: ezfc.php:154
+msgid ""
+"Hello! Please register your license to receive automatic updates for "
+"<strong>ez Form Calculator Premium</strong>."
+msgstr ""
+"Hallo! Bitte registrieren Sie Ihre Lizenz für automatische Updates für "
+"<strong>ez Form Calculator Premium</strong>"
+
+#: ezfc.php:207
+msgid "Global Settings"
+msgstr "Globale Einstellungen"
+
+#: ezfc.php:210
+msgid "Form Settings"
+msgstr "Formular Einstellungen"
+
+#: ezfc.php:286
+msgid "Delete"
+msgstr "Löschen"
+
+#: ezfc.php:287
+msgid "Really delete the selected form?"
+msgstr "Wirklich das ausgewählte Formular löschen?"
+
+#: ezfc.php:288
+msgid "Really delete the selected element?"
+msgstr "Wirklich das ausgewählte Element löschen?"
+
+#: ezfc.php:289
+msgid ""
+"You have changed the form without having saved. Really leave the current "
+"form unsaved?"
+msgstr ""
+"Das Formular wurde geändert, ohne zu speichern. Wirklich die Seite verlassen?"
+
+#: ezfc.php:290
+msgid "Really overwrite this option for all forms?"
+msgstr ""
+
+#: ezfc.php:291
+msgid "Submit button"
+msgstr ""
+
+#: ezfc.php:292
+msgid "Unavailable for this element."
+msgstr ""
+
+#: ezfc.php:298
+msgid "Add a line above step buttons."
+msgstr "Linie über Step-Buttons anzeigen"
+
+#: ezfc.php:299
+msgid "Allow multiple email addresses to be entered, separated by comma."
+msgstr ""
+
+#: ezfc.php:300
+msgid ""
+"Choose the operator and target element to calculate with. <br><br>Example: "
+"[ * ] [ field_1 ]<br>Result = current_value + field_1 * this_field."
+msgstr ""
+"Wählen Sie den Operator und das Zielelement zum Berechnen. <br><br> "
+"Beispiel: [ * ] [ feld_1 ] <br> Ergebnis = aktueller_wert + feld_1 * "
+"dieses_element"
+
+#: ezfc.php:301
+msgid "When checked, this field will be taken into calculations."
+msgstr ""
+"Wenn diese Option aktiviert ist, wird dieses Feld in Berechnungen "
+"berücksichtigt werden."
+
+#: ezfc.php:302
+msgid ""
+"When checked, this field will be calculated first. <br><br><strong>Checked</"
+"strong>: this_field / target_calculation_field. <br><br><strong>Unchecked</"
+"strong>: target_calculation_field / this_field."
+msgstr ""
+"Wenn diese Option aktiviert ist, wird dieses Feld zuerst berechnet werden. "
+"<br><br> <strong>Überprüft</strong> this_field / target_calculation_field. "
+"<br><br> <strong>Nicht markiert:</strong> target_calculation_field / "
+"this_field."
+
+#: ezfc.php:303
+msgid ""
+"Whether to take this element into calculations when it is hidden or not."
+msgstr "Dieses Element in Berechnungen miteinbeziehen, wenn es versteckt ist."
+
+#: ezfc.php:304
+msgid "Additional CSS class for this element."
+msgstr "Zusätzliche CSS-Klasse für dieses Element."
+
+#: ezfc.php:305
+msgid ""
+"Conditional fields can show or hide elements. Check out the conditional "
+"example from the templates or visit the documentation site for more "
+"information."
+msgstr ""
+"Bedingte Felder können Elemente ein- oder ausblenden. Schauen Sie sich die "
+"Beispiele aus den Templates an oder besuchen Sie die Website-Dokumentation "
+"für weitere Informationen."
+
+#: ezfc.php:306
+msgid ""
+"Javascript code. The code inside will be wrapped in a unique function. You "
+"do not need to add a return value since the variable 'price' will always be "
+"returned."
+msgstr ""
+
+#: ezfc.php:307
+msgid ""
+"Error message when element value does not validate regular expression from "
+"custom_regex"
+msgstr "Fehlermeldung, wenn Elementwert nicht den regulären Ausdruck validiert"
+
+#: ezfc.php:308
+msgid "Custom regular expression. Only numbers allowed example: /[0-9]/i"
+msgstr ""
+"Benutzerdefinierte reguläre Ausdrücke. Beispiel: Nur Zahlen erlaubt: /[0-9]/i"
+
+#: ezfc.php:309
+msgid "Users will see the description in a tooltip."
+msgstr "Dieese Beschreibung wird in einem Tooltip angezeigt."
+
+#: ezfc.php:310
+msgid "Discount values"
+msgstr "Rabatt-Werte"
+
+#: ezfc.php:311
+msgid "Process shortcodes"
+msgstr ""
+
+#: ezfc.php:312
+msgid "Double check email-address"
+msgstr "Zeige zwei Email-Felder zur Überprüfung"
+
+#: ezfc.php:313
+msgid ""
+"The value will be automatically multiplied by this factor. Default factor: 1"
+msgstr ""
+"Der Wert wird automatisch mit diesem Faktor multipliziert. Standardfaktor: 1"
+
+#: ezfc.php:314
+msgid ""
+"This field will be filled from a GET-parameter. Example: "
+"<br><br><strong>URL</strong>: http://www.test.com/?test_value=1 "
+"<br><strong>GET</strong>: test_value <br><strong>Field value</strong>: 1."
+msgstr ""
+"Dieses Feld wird von einem GET-Parameter gefüllt. Beispiel: "
+"<br><br><strong>URL:</strong> http://www.test.com/?test_value=1 <br> "
+"<strong>GET:</strong> test_value <br> <strong>Feldwert:</strong> 1."
+
+#: ezfc.php:315
+msgid ""
+"Hidden field. If this field is taken into conditional calculations, you need "
+"to set this option to Conditional hidden."
+msgstr ""
+"Verstecktes Feld. Wenn dieses Feld in bedingte Berechnungen genommen wird, "
+"müssen Sie diese Option auf Conditional hidden setzen."
+
+#: ezfc.php:316
+msgid "Display options in a row."
+msgstr ""
+
+#: ezfc.php:317
+msgid "Format this field as currency value in submissions."
+msgstr ""
+"Formatieren Sie dieses Feld als Währungswert (bei Formular-Einsendungen)."
+
+#: ezfc.php:318
+msgid ""
+"Mobile phones will automatically show the number pad when this element is "
+"focused. However, it will *not* check for actual phone numbers."
+msgstr ""
+
+#: ezfc.php:319
+msgid "This text will be displayed in the frontend."
+msgstr "Dieser Text wird im Frontend angezeigt."
+
+#: ezfc.php:320
+msgid "Maximum value"
+msgstr "Maximalwert"
+
+#: ezfc.php:321
+msgid "The opposite of minDate."
+msgstr "Das Gegenteil von minDate."
+
+#: ezfc.php:322
+msgid "Maximum width of images (if no unit is present, px will be used)."
+msgstr ""
+
+#: ezfc.php:323
+msgid "Maximum height of images (if no unit is present, px will be used)."
+msgstr ""
+
+#: ezfc.php:324
+msgid "Minimum value"
+msgstr "Mindestwert"
+
+#: ezfc.php:325
+msgid ""
+"Minimum date of both dates. Example: +1d;;+2d - the first datepicker (from) "
+"will only have selectable dates 1 day in the future, the second datepicker "
+"(to) will only have selectable dates 2 days in the future"
+msgstr ""
+"Mindestdatum beiden Termine. Beispiel: +1d;;+2d - der erste Datepicker (von) "
+"hat nur auswählbare Daten 1 Tag in der Zukunft, der zweite Datepicker (to) "
+"hat nur auswählbare Daten 2 Tage in der Zukunft"
+
+#: ezfc.php:326
+msgid "The amount of minimum days to select."
+msgstr "Mindesttage"
+
+#: ezfc.php:327
+msgid "When checked, multiple files can be uploaded."
+msgstr "Wenn aktiviert, können mehrere Dateien hochgeladen werden."
+
+#: ezfc.php:328
+msgid "Internal name. This value is displayed in submissions/emails only."
+msgstr "Interner Name. Dieser Wert wird in Eingaben / nur E-Mails angezeigt."
+
+#: ezfc.php:329
+msgid ""
+"When checked, this field will override the calculations above. Useful with "
+"division operator. <br><br><strong>Checked</strong>: result = "
+"target_calculation_field / this_field. <br><br><strong>Unchecked</strong>: "
+"result = current_value + target_calculation_field / this_field."
+msgstr ""
+"Wenn diese Option aktiviert ist, wird dieses Feld die Berechnungen "
+"überschreiben. Nützliche mit Divisionsoperator. <br><br> <strong>Aktiviert</"
+"strong>: Ergebnis = target_calculation_field / this_field. <br><br> "
+"<strong>Deaktiviert:</strong> Ergebnis = aktueller_wert + "
+"target_calculation_field / this_field."
+
+#: ezfc.php:330
+msgid "Placeholder only (slight background text when no value is present)."
+msgstr "Platzhalter (leichte Hintergrundtext, wenn kein Wert vorhanden ist)."
+
+#: ezfc.php:331
+msgid "Enter the ID of the post you want to show."
+msgstr "Geben Sie die ID des Posts ein, welches Sie anzeigen möchten."
+
+#: ezfc.php:332
+msgid "Custom price format (see numeraljs.com for syntax). Default: 0,0[.]00"
+msgstr ""
+"Individuelle Preisformatierung (siehe numeraljs.com für Syntax). Standard: "
+"0,0[.]00"
+
+#: ezfc.php:333
+msgid "Element is read-only."
+msgstr ""
+
+#: ezfc.php:334
+msgid "Whether this is a required field or not."
+msgstr "Pflichtfeld"
+
+#: ezfc.php:336
+msgid "Show this element in emails"
+msgstr "Element kann nicht eingefügt werden"
+
+#: ezfc.php:337
+msgid ""
+"Display a slider instead of a textfield. Needs minimum and maximum fields "
+"defined."
+msgstr ""
+"Zeige einen Schieberegler anstelle eines Textfeld. Benötigt Minimal- und "
+"Maximalwert."
+
+#: ezfc.php:338
+msgid "Slider step value"
+msgstr "Slider Schrittwert"
+
+#: ezfc.php:339
+msgid "Display a spinner instead of a textfield."
+msgstr "Zeige einen Spinner statt eines Textfeld."
+
+#: ezfc.php:340 ezfc.php:341
+msgid "Incremental steps"
+msgstr "Inkrementelle Schritte"
+
+#: ezfc.php:342
+msgid ""
+"CSS inline style, example (without quotes): \"color: #f00; margin-top: 1em;\""
+msgstr "CSS Inline-Stil, z.B.: \"color: #f00; margin-top: 1em;\""
+
+#: ezfc.php:343
+msgid "Text after price"
+msgstr "Text nach Preis"
+
+#: ezfc.php:344
+msgid "Text before price"
+msgstr "Text vor Preis"
+
+#: ezfc.php:345
+msgid "Emails will be sent to this address."
+msgstr "E-Mails werden an diese Adresse gesendet."
+
+#: ezfc.php:346
+msgid "Display text only instead of an input field"
+msgstr "Zeige nur Text anstatt eines Eingabefeldes"
+
+#: ezfc.php:347
+msgid "This element will get the price of the current WooCommerce product."
+msgstr ""
+
+#: ezfc.php:348
+msgid "Predefined value."
+msgstr "Vordefinierter Wert."
+
+#: ezfc.php:349
+msgid "DOM-selector to get the value from (e.g. #myinputfield)."
+msgstr "DOM-selector, um den Wert zu erhalten (z.B. #myinputfield)."
+
+#: ezfc.php:350
+msgid "CSS class that will be added to the element wrapper."
+msgstr ""
+
+#: ezfc.php:351
+msgid "CSS inline style that will be added to the element wrapper."
+msgstr ""
+
+#: ezfc.php:354
+msgid "This action will be performed"
+msgstr ""
+
+#: ezfc.php:355
+msgid "The value of the target element will be used to calculate with"
+msgstr ""
+
+#: ezfc.php:356
+msgid ""
+"The calculation value will only be used when no target element is selected"
+msgstr ""
+
+#: ezfc.php:357
+msgid ""
+"Calculate with factor: the value to be read from another element will be "
+"multiplied by its factor"
+msgstr ""
+
+#: ezfc.php:358
+msgid ""
+"Conditional operator: compare operator of this element's value and target "
+"element's value. For the \"in between\" operator, use a colon (:) as "
+"separator, example: 20:100"
+msgstr ""
+
+#: ezfc.php:359
+msgid ""
+"Conditional toggle: when this field is checked, the opposite action will not "
+"be executed when this condition is triggered"
+msgstr ""
+
+#: ezfc.php:360
+msgid "Conditional value"
+msgstr ""
+
+#: ezfc.php:361
+msgid "Discount operator for the following discount value"
+msgstr ""
+
+#: ezfc.php:362
+msgid ""
+"Minimum value for this discount condition (leave blank for negative infinity)"
+msgstr ""
+
+#: ezfc.php:363
+msgid ""
+"Maximum value for this discount condition (leave blank for positive infinity)"
+msgstr ""
+
+#: ezfc.php:364 ezfc.php:383
+msgid "Target element"
+msgstr ""
+
+#: ezfc.php:365
+msgid "Set target element value to this value (only with SET operator)"
+msgstr ""
+
+#: ezfc.php:368
+msgid "Action"
+msgstr "Aktion"
+
+#: ezfc.php:369
+msgid "Add calculation field"
+msgstr "Berechnungsfeld hinzufügen"
+
+#: ezfc.php:370
+msgid "Add conditional field"
+msgstr "Bedingungsfeld hinzufügen"
+
+#: ezfc.php:372
+msgid "Choose icon"
+msgstr ""
+
+#: ezfc.php:373
+msgid "CO"
+msgstr ""
+
+#: ezfc.php:374
+msgid "Discount value"
+msgstr ""
+
+#: ezfc.php:375
+msgid "Documentation"
+msgstr ""
+
+#: ezfc.php:376
+msgid ""
+"Please note that file upload elements cannot be both required and hidden at "
+"the same time due to browser security restrictions."
+msgstr ""
+
+#: ezfc.php:377
+msgid "Functions"
+msgstr ""
+
+#: ezfc.php:378
+msgid "Operator"
+msgstr ""
+
+#: ezfc.php:379
+msgid "Remove"
+msgstr ""
+
+#: ezfc.php:380
+msgid "Refresh fields"
+msgstr ""
+
+#: ezfc.php:381
+msgid "Show if not empty"
+msgstr ""
+
+#: ezfc.php:382
+msgid "Show if not empty and not 0"
+msgstr ""
+
+#: ezfc.php:384
+msgid "TV"
+msgstr ""
+
+#: ezfc.php:385
+msgid "Value"
+msgstr ""
+
+#: ezfc.php:386
+msgid "Value min"
+msgstr ""
+
+#: ezfc.php:387
+msgid "Value max"
+msgstr ""
+
+#: ezfc.php:578
+msgid "No PayerID."
+msgstr "Kein PayerID."
+
+#: ezfc.php:586
+msgid "Payment could not be verified. :("
+msgstr "Zahlung konnte nicht verifiziert werden. :("
+
+#: ezfc.php:706
+msgid "No form with the requested ID found."
+msgstr "Ungültige ID. Kein Resultat gefunden."
+
+#: ezfc.php:712
+msgid "Uploading..."
+msgstr "Upload läuft..."
+
+#: ezfc.php:713
+msgid "File upload successful."
+msgstr "Datei-Upload erfolgreich."
+
+#: widget.php:13
+msgid "ez Form Calculator"
+msgstr "ez Form Calculator"
+
+#: widget.php:14
+msgid "Form widget"
+msgstr ""
+
+#: widget.php:19
+msgid "Title"
+msgstr ""
+
+#: widget.php:24
+msgid "Form"
+msgstr ""
+
+#: widget.php:90
+msgid "No forms found."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "ez Form Calculator Premium"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://ez-form-calculator.ezplugins.de/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"With ez Form Calculator, you can simply create a form calculator for both "
+"yourself and your customers. Easily add basic form elements like checkboxes, "
+"dropdown menus, radio buttons etc. with only a few clicks. Each form element "
+"can be assigned a value which will be calculated automatically."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Michael Schuppenies"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.mials.de/"
+msgstr ""
+
+#~ msgid "Test PayPal credentials"
+#~ msgstr "PayPal Anmeldeinformationen"
+
+#~ msgid "You can manually update plugin here."
+#~ msgstr "Sie können das Plugin hier manuell aktualisieren."
+
+#~ msgid ""
+#~ "The update file should be named 'codecanyon-7595334-ez-form-calculator-"
+#~ "wordpress-plugin.zip'."
+#~ msgstr ""
+#~ "Die Update-Datei sollte \"codecanyon-7595334-ez-form-calculator-wordpress-"
+#~ "plugin.zip\" heißen."
+
+#~ msgid "No form found."
+#~ msgstr "Kein Formular gefunden."
+
+#~ msgid ""
+#~ "You can submit your own templates to share them with the community. We "
+#~ "will review the template and if it fits for public purpose, we will add "
+#~ "it to the list."
+#~ msgstr ""
+#~ "Sie können Ihre eigenen Templates einreichen, um sie mit der Gemeinschaft "
+#~ "teilen. Wir werden die Vorlage überprüfen und, wenn es für den "
+#~ "öffentlichen Zweck passt, in die Liste mit aufnehmen."
+
+#~ msgid "Please note that we will not expose any personal "
+#~ msgstr "Bitte beachten Sie, dass wir keine persönlichen Daten publizieren."

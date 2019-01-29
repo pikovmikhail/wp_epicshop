@@ -1,0 +1,84 @@
+.ezfc-theme-default-alternative .ezfc-element {
+  padding-top: 0em;
+  padding-bottom: 0.75em;
+}
+.ezfc-theme-default-alternative .ezfc-label {
+  display: inline-block;
+  float: left;
+  padding: 0 1em 0.15em 0;
+  text-align: right;
+  vertical-align: top;
+  width: 10em;
+}
+.ezfc-theme-default-alternative .ezfc-element-input,
+.ezfc-theme-default-alternative .ezfc-element-numbers,
+.ezfc-theme-default-alternative .ezfc-element-textarea,
+.ezfc-theme-default-alternative .ezfc-element-select,
+.ezfc-theme-default-alternative .ezfc-element-fileupload {
+  width: auto;
+}
+.ezfc-theme-default-alternative .ezfc-element-input,
+.ezfc-theme-default-alternative .ezfc-element-numbers {
+  display: inline-block;
+  padding: 0.2em 0;
+}
+.ezfc-theme-default-alternative .ezfc-element-select {
+  padding: 0.3em;
+}
+.ezfc-theme-default-alternative .ezfc-element-submit {
+  padding: 0.5em;
+}
+.ezfc-theme-default-alternative .ezfc-element-radio-container,
+.ezfc-theme-default-alternative .ezfc-element-checkbox-container,
+.ezfc-theme-default-alternative .ezfc-element-fileupload {
+  display: table-row;
+}
+.ezfc-theme-default-alternative .ezfc-element-radio,
+.ezfc-theme-default-alternative .ezfc-element-radio-text,
+.ezfc-theme-default-alternative .ezfc-element-checkbox,
+.ezfc-theme-default-alternative .ezfc-element-checkbox-text {
+  display: inline-block;
+}
+.ezfc-theme-default-alternative .ezfc-addon-label {
+  display: none;
+}
+.ezfc-theme-default-alternative .ezfc-element-radio-input,
+.ezfc-theme-default-alternative .ezfc-element-checkbox-input {
+  margin: 0 0.5em 0.2em 1em;
+}
+.ezfc-theme-default-alternative .ezfc-element-textarea {
+  width: 30em;
+}
+.ezfc-theme-default-alternative .ezfc-element-radio-input,
+.ezfc-theme-default-alternative .ezfc-element-checkbox-input {
+  margin: 0 5px 6px 0;
+}
+.ezfc-theme-default-alternative .ezfc-element-fileupload {
+  display: inline-block;
+}
+.ezfc-theme-default-alternative .ezfc-element-daterange-from {
+  margin-right: 0.3em;
+}
+.ezfc-theme-default-alternative .ezfc-upload-button {
+  margin-left: 10em;
+  padding: 10px;
+  background: #efefef;
+  color: #111;
+  margin-top: 0.3em;
+}
+.ezfc-theme-default-alternative .ezfc-price-wrapper {
+  display: inline-block;
+  font-size: 1.5em;
+}
+.ezfc-theme-default-alternative .ezfc-success-text {
+  display: none;
+}
+.ezfc-theme-default-alternative .ezfc-required-char {
+  color: #f00;
+}
+.ezfc-theme-default-alternative .ezfc-element-price {
+  font-style: italic;
+}
+.ezfc-theme-default-alternative p.ezfc-fileupload-message {
+  margin: 6px 0 0 150px;
+}

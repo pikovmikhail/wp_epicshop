@@ -1,0 +1,210 @@
+@color_background: #efefef;
+@color_main: #666;
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:700,300,400);
+
+.ezfc-theme-slick {
+	font-family: 'Open Sans', sans-serif;
+
+	// elements
+	.ezfc-element {
+		padding-top: 0em;
+		padding-bottom: 1.5em;
+	}
+
+	// label
+	.ezfc-label {
+		display: block;
+		font-size: 1.2em;
+		font-weight: 400;
+		margin: 0;
+		padding: 0.75em;
+		text-align: left;
+	}
+
+	// input fields
+	.ezfc-element-input,
+	.ezfc-element-numbers,
+	.ezfc-element-textarea,
+	.ezfc-element-select {
+		border: 0;
+		background: @color_background;
+		color: @color_main;
+		padding: 0.5em 1em;
+		width: 100%;
+	}
+
+	.ezfc-element-select {
+		padding: 0.6em 1em;
+	}
+
+	// radio/checkbox
+	.ezfc-element-radio,
+	.ezfc-element-radio-text,
+	.ezfc-element-checkbox,
+	.ezfc-element-checkbox-text {
+		display: inline-block;
+	}
+
+	// radio/checkbox input
+	.ezfc-element-radio-input,
+	.ezfc-element-checkbox-input {
+		margin: 0 0.5em 0.2em 1em;
+	}
+
+	// daterange
+	.ezfc-element-daterange {
+		width: 49%;
+	}
+	.ezfc-element-daterange-from {
+		margin-right: 1%;
+	}
+	.ezfc-element-daterange-to {
+		margin-left: 1%;
+	}
+
+	// image
+	.ezfc-element-wrapper-image img {
+		max-width: 100%;
+	}
+
+	// subtotal
+	.ezfc-element-wrapper-subtotal .ezfc-text {
+		font-size: 1.5em;
+		padding: 0.5em;
+	}
+
+	// spinner
+	.ui-spinner {
+		border: 0;
+		border-radius: 0;
+	}
+	.ui-spinner-input {
+		font-family: "Open Sans", sans-serif;
+		font-size: 0.9em;
+		font-weight: 300;
+		margin: 0;
+	}
+
+	// price
+	.ezfc-price {
+		display: inline-block;
+		font-size: 1.75em;
+		font-weight: 700;
+		padding: 0.5em;
+	}
+	.ezfc-element-price {
+		font-style: italic;
+	}
+
+	// submit button
+	.ezfc-btn, .ezfc-step-button {
+		border: 0;
+		background: @color_background;
+		color: @color_main;
+		padding: 0.5em 1em;
+		.ezfc-transition;
+		.ezfc-hover-lighten;
+	}
+
+	// success text
+	.ezfc-success-text {
+		display: none;
+	}
+
+	// required char
+	.ezfc-required-char {
+		color: #f00;
+	}
+
+	// file upload
+	input.ezfc-element-fileupload {
+		margin: 0.5em 0;
+	}
+	.ezfc-fileupload-message {
+		padding: 0.5em 0;
+	}
+	.ezfc-upload-button {
+		border: 0;
+		margin: 0.5em 0;
+		padding: 0.5em 1em;
+		background: @color_background;
+		color: @color_main;
+		.ezfc-transition;
+		.ezfc-hover-lighten;
+	}
+
+	// icon
+	.ezfc-element .fa {
+		color: @color_main;
+	}
+
+	// placeholder
+	::-webkit-input-placeholder { .ezfc-placeholder; }
+	:-moz-placeholder { .ezfc-placeholder; }
+	::-moz-placeholder { .ezfc-placeholder; }
+	:-ms-input-placeholder { .ezfc-placeholder; }
+
+	// steps
+	@stepColorCompleted: #1C91E9;
+	@textColorCompleted: #fff;
+	@stepColorHover: lighten(@stepColorCompleted, 10%);
+
+	.ezfc-step-indicator-item {
+	    background: @color_background;
+	    color: @color_main;
+
+	    &:before {
+	        border-color: @color_background;
+	        border-left-color: transparent;
+	    }
+	    &:after {
+	        border: 15px solid transparent;
+	        border-left-color: @color_background;
+	    }
+	    &.ezfc-step-indicator-item-active {
+	        background: @stepColorCompleted;
+	        color: @textColorCompleted;
+
+	        &:before {
+	            border-color: @stepColorCompleted;
+	            border-left-color: transparent;
+	        }
+	        &:after {
+	            border-left-color: @stepColorCompleted;
+	        }
+	        &:hover {
+	            background: @stepColorHover;
+	            border-color: @stepColorHover;
+	            color: @textColorCompleted;
+	            text-decoration: none;
+	            &:before {
+	                border-color: @stepColorHover;
+	                border-left-color: transparent;
+	            }
+	            &:after {
+	                border-left-color: @stepColorHover;
+	            }
+	        }
+	    }
+	}
+}
+
+.ezfc-placeholder {
+	color: #aaa;
+	font-style: italic;
+}
+
+.ezfc-transition(@duration: 0.2s, @timing: ease-in-out) {
+	-webkit-transition: all @duration @timing;
+	-moz-transition: all @duration @timing;
+	-o-transition: all @duration @timing;
+	transition: all @duration @timing;
+}
+
+.ezfc-hover-lighten {
+	&:hover {
+		background: lighten(@color_background, 5%);
+		color: lighten(@color_main, 5%);
+	}
+}

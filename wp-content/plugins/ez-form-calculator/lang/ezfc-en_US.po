@@ -1,0 +1,996 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ez Form Calculator Premium v2.8.2.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2015-05-23 10:32:26+0000\n"
+"Last-Translator: admin <pansensalat@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: ajax-admin.php:116
+#@ ezfc
+msgid "Empty form data or invalid file format"
+msgstr ""
+
+#: ajax-admin.php:127
+#@ ezfc
+msgid "Unable to import elements."
+msgstr ""
+
+#: ajax-fileupload.php:44
+#@ ezfc
+msgid "Filetype not allowed."
+msgstr ""
+
+#: ajax.php:75
+#@ ezfc
+msgid "Recaptcha failed, please try again."
+msgstr ""
+
+#: class.ezfc_backend.php:53
+#@ ezfc
+msgid "New form"
+msgstr ""
+
+#: class.ezfc_backend.php:56
+#: class.ezfc_backend.php:1065
+#@ ezfc
+msgid "Corrupt form data."
+msgstr ""
+
+#: class.ezfc_backend.php:91
+#@ ezfc
+msgid "Could not insert element data from template."
+msgstr ""
+
+#: class.ezfc_backend.php:219
+#@ ezfc
+msgid "Unable to add post"
+msgstr ""
+
+#: class.ezfc_backend.php:234
+#@ ezfc
+msgid "Form cleared."
+msgstr ""
+
+#: class.ezfc_backend.php:264
+#@ ezfc
+msgid "Form deleted."
+msgstr ""
+
+#: class.ezfc_backend.php:293
+#@ ezfc
+msgid "Could not delete file from server."
+msgstr ""
+
+#: class.ezfc_backend.php:303
+#@ ezfc
+msgid "File deleted."
+msgstr ""
+
+#: class.ezfc_backend.php:313
+#: class.ezfc_backend.php:324
+#: class.ezfc_backend.php:359
+#: class.ezfc_backend.php:370
+#: class.ezfc_backend.php:382
+#: class.ezfc_backend.php:393
+#: class.ezfc_frontend.php:53
+#@ ezfc
+msgid "No ID"
+msgstr ""
+
+#: class.ezfc_backend.php:420
+#@ ezfc
+msgid "Submission deleted."
+msgstr ""
+
+#: class.ezfc_backend.php:488
+#@ ezfc
+msgid "Could not insert template"
+msgstr ""
+
+#: class.ezfc_backend.php:504
+#@ ezfc
+msgid "Template deleted."
+msgstr ""
+
+#: class.ezfc_backend.php:522
+#: class.ezfc_backend.php:544
+#: class.ezfc_backend.php:755
+#@ ezfc
+msgid "Settings updated"
+msgstr ""
+
+#: class.ezfc_backend.php:557
+#: class.ezfc_backend.php:661
+#: class.ezfc_frontend.php:93
+#: class.ezfc_frontend.php:132
+#@ ezfc
+msgid "No ID."
+msgstr ""
+
+#: class.ezfc_backend.php:571
+#: class.ezfc_backend.php:584
+#: class.ezfc_backend.php:702
+#: class.ezfc_frontend.php:107
+#: class.ezfc_frontend.php:118
+#@ ezfc
+msgid "No ID given."
+msgstr ""
+
+#: class.ezfc_backend.php:631
+#@ ezfc
+msgid "Could not insert element to form"
+msgstr ""
+
+#: class.ezfc_backend.php:645
+#@ ezfc
+msgid "Element deleted."
+msgstr ""
+
+#: class.ezfc_backend.php:653
+#@ ezfc
+msgid "Failed to duplicate element."
+msgstr ""
+
+#: class.ezfc_backend.php:1077
+#@ ezfc
+msgid "Data import complete."
+msgstr ""
+
+#: class.ezfc_backend.php:1084
+#@ ezfc
+msgid "ez Form Calculator Test Email"
+msgstr ""
+
+#: class.ezfc_backend.php:1085
+#@ ezfc
+msgid "This is a test email sent by ez Form Calculator."
+msgstr ""
+
+#: class.ezfc_backend.php:1106
+#: class.ezfc_backend.php:1121
+#@ ezfc
+msgid "Mail successfully sent."
+msgstr ""
+
+#: class.ezfc_backend.php:1121
+#@ ezfc
+msgid "Unable to send mails."
+msgstr ""
+
+#: class.ezfc_frontend.php:31
+#@ ezfc
+msgid "No id or name found."
+msgstr ""
+
+#: class.ezfc_frontend.php:47
+#@ ezfc
+msgid "No form found."
+msgstr ""
+
+#: class.ezfc_frontend.php:68
+#@ ezfc
+msgid "No ref_id"
+msgstr ""
+
+#: class.ezfc_frontend.php:146
+#: class.ezfc_frontend.php:326
+#@ ezfc
+msgid "No ID or no data."
+msgstr ""
+
+#: class.ezfc_frontend.php:153
+#@ ezfc
+msgid "Submission not allowed."
+msgstr ""
+
+#: class.ezfc_frontend.php:229
+#@ ezfc
+msgid "Please enter a valid date range."
+msgstr ""
+
+#: class.ezfc_frontend.php:235
+#@ ezfc
+msgid "Please enter a valid email address."
+msgstr ""
+
+#: class.ezfc_frontend.php:244
+#@ ezfc
+msgid "Please check your email address."
+msgstr ""
+
+#: class.ezfc_frontend.php:257
+#@ ezfc
+msgid "No file was uploaded yet."
+msgstr ""
+
+#: class.ezfc_frontend.php:263
+#@ ezfc
+msgid "Please enter a valid number."
+msgstr ""
+
+#: class.ezfc_frontend.php:358
+#@ ezfc
+msgid "Element could not be found."
+msgstr ""
+
+#: class.ezfc_frontend.php:430
+#@ ezfc
+msgid "Submission failed."
+msgstr ""
+
+#: class.ezfc_frontend.php:587
+#@ ezfc
+msgid "Total"
+msgstr ""
+
+#: class.ezfc_frontend.php:733
+#: class.ezfc_functions.php:217
+#: class.ezfc_functions.php:238
+#: class.ezfc_functions.php:395
+#: class.ezfc_functions.php:415
+#@ ezfc
+msgid "From"
+msgstr ""
+
+#: class.ezfc_frontend.php:734
+#: class.ezfc_functions.php:218
+#: class.ezfc_functions.php:239
+#: class.ezfc_functions.php:397
+#: class.ezfc_functions.php:416
+#@ ezfc
+msgid "To"
+msgstr ""
+
+#: class.ezfc_frontend.php:854
+#@ ezfc
+msgid "day(s)"
+msgstr ""
+
+#: class.ezfc_frontend.php:923
+#@ ezfc
+msgid "Cannot divide by target factor 0"
+msgstr ""
+
+#: class.ezfc_frontend.php:983
+#@ ezfc
+msgid "Price override"
+msgstr ""
+
+#: class.ezfc_frontend.php:1005
+#: class.ezfc_frontend.php:1010
+#: class.ezfc_frontend.php:1015
+#: class.ezfc_frontend.php:1020
+#: class.ezfc_frontend.php:1025
+#@ default
+msgid "Discount:"
+msgstr ""
+
+#: class.ezfc_frontend.php:1351
+#@ default
+msgid "No id or name found. Correct syntax: [ezfc id='1' /] or [ezfc name='form-name' /]."
+msgstr ""
+
+#: class.ezfc_frontend.php:1448
+#@ ezfc
+msgid "Request price"
+msgstr ""
+
+#: class.ezfc_frontend.php:1663
+#@ ezfc
+msgid "Confirmation"
+msgstr ""
+
+#: class.ezfc_frontend.php:1902
+#@ ezfc
+msgid "Upload"
+msgstr ""
+
+#: class.ezfc_frontend.php:2101
+#@ ezfc
+msgid "File entry failed."
+msgstr ""
+
+#: class.ezfc_frontend.php:2103
+#@ ezfc
+msgid "File entry saved."
+msgstr ""
+
+#: class.ezfc_frontend.php:2107
+#@ ezfc
+msgid "No token."
+msgstr ""
+
+#: class.ezfc_frontend.php:2115
+#@ ezfc
+msgid "Unable to find submission."
+msgstr ""
+
+#: class.ezfc_functions.php:209
+#@ ezfc
+msgid "Add closed days"
+msgstr ""
+
+#: class.ezfc_functions.php:219
+#: class.ezfc_functions.php:240
+#: class.ezfc_functions.php:417
+#@ ezfc
+msgid "Remove item"
+msgstr ""
+
+#: class.ezfc_functions.php:278
+#@ ezfc
+msgid "Choose image"
+msgstr ""
+
+#: class.ezfc_functions.php:306
+#@ ezfc
+msgid "No MailChimp lists found or wrong API key"
+msgstr ""
+
+#: class.ezfc_functions.php:324
+#@ ezfc
+msgid "No Mailpoet lists found."
+msgstr ""
+
+#: class.ezfc_functions.php:387
+#@ ezfc
+msgid "Add business hours"
+msgstr ""
+
+#: class.ezfc_functions.php:447
+#@ ezfc
+msgid "Monday"
+msgstr ""
+
+#: class.ezfc_functions.php:448
+#@ ezfc
+msgid "Tuesday"
+msgstr ""
+
+#: class.ezfc_functions.php:449
+#@ ezfc
+msgid "Wednesday"
+msgstr ""
+
+#: class.ezfc_functions.php:450
+#@ ezfc
+msgid "Thursday"
+msgstr ""
+
+#: class.ezfc_functions.php:451
+#@ ezfc
+msgid "Friday"
+msgstr ""
+
+#: class.ezfc_functions.php:452
+#@ ezfc
+msgid "Saturday"
+msgstr ""
+
+#: class.ezfc_functions.php:453
+#@ ezfc
+msgid "Sunday"
+msgstr ""
+
+#: class.ezfc_functions.php:476
+#: ezfc.php:249
+#: ezfc.php:515
+#@ ezfc
+msgid "No"
+msgstr ""
+
+#: class.ezfc_functions.php:477
+#: ezfc.php:248
+#: ezfc.php:514
+#@ ezfc
+msgid "Yes"
+msgstr ""
+
+#: class.ezfc_functions.php:490
+#@ ezfc
+msgid "Overwrite"
+msgstr ""
+
+#: class.ezfc_functions.php:526
+#@ ezfc
+msgid "Unfortunately, 'unzip_file' is not installed on your webserver."
+msgstr ""
+
+#: class.ezfc_functions.php:538
+#@ ezfc
+msgid "Update has failed: unable to unzip files."
+msgstr ""
+
+#: class.ezfc_functions.php:543
+#@ ezfc
+msgid "Update has failed: update directory does not exist."
+msgstr ""
+
+#: class.ezfc_functions.php:551
+#@ ezfc
+msgid "Notice: unable to remove update directory.<br>"
+msgstr ""
+
+#: class.ezfc_functions.php:554
+#@ ezfc
+msgid "Update successful!"
+msgstr ""
+
+#: class.ezfc_functions.php:604
+#@ ezfc
+msgid "Function 'file_get_contents' does not exist."
+msgstr ""
+
+#: class.ezfc_functions.php:617
+#@ ezfc
+msgid "Library ZipArchive is not installed on your webserver."
+msgstr ""
+
+#: class.ezfc_functions.php:632
+#@ ezfc
+msgid "Unable to create temporary file."
+msgstr ""
+
+#: class.ezfc_functions.php:661
+#@ ezfc
+msgid "Temporary files deleted."
+msgstr ""
+
+#: class.ezfc_functions.php:762
+#@ ezfc
+msgid "Service is unavailable."
+msgstr ""
+
+#: class.ezfc_functions.php:768
+#@ ezfc
+msgid "Unable to install template: no template."
+msgstr ""
+
+#: class.ezfc_functions.php:772
+#@ ezfc
+msgid "Unable to install template: no data."
+msgstr ""
+
+#: class.ezfc_functions.php:787
+#@ ezfc
+msgid "Template was installed successfully."
+msgstr ""
+
+#: ezfc-page-help.php:54
+#@ ezfc
+msgid "paypal_env"
+msgstr ""
+
+#: ezfc-page-help.php:57
+#@ ezfc
+msgid "paypal_envL_LONGMESSAGE0"
+msgstr ""
+
+#: ezfc-page-help.php:75
+#: ezfc.php:120
+#@ ezfc
+msgid "Help / debug"
+msgstr ""
+
+#: ezfc-page-help.php:132
+#@ ezfc
+msgid "Send test mail"
+msgstr ""
+
+#: ezfc-page-help.php:147
+#@ ezfc
+msgid "Test PayPal credentials"
+msgstr ""
+
+#: ezfc-page-importexport.php:14
+#@ ezfc
+msgid "Data imported."
+msgstr ""
+
+#: ezfc-page-importexport.php:23
+#@ ezfc
+msgid "Unable to import form data from file."
+msgstr ""
+
+#: ezfc-page-importexport.php:44
+#@ ezfc
+msgid "Unable to download export data."
+msgstr ""
+
+#: ezfc-page-importexport.php:70
+#@ ezfc
+msgid "Import / Export data"
+msgstr ""
+
+#: ezfc-page-importexport.php:82
+#: ezfc-page-main.php:309
+#@ ezfc
+msgid "Export data"
+msgstr ""
+
+#: ezfc-page-importexport.php:87
+#@ ezfc
+msgid "Download export data"
+msgstr ""
+
+#: ezfc-page-importexport.php:88
+#@ ezfc
+msgid "Clear temporary export files"
+msgstr ""
+
+#: ezfc-page-importexport.php:94
+#: ezfc-page-importexport.php:99
+#@ ezfc
+msgid "Import text data"
+msgstr ""
+
+#: ezfc-page-importexport.php:97
+#@ ezfc
+msgid "Paste form data here:"
+msgstr ""
+
+#: ezfc-page-importexport.php:104
+#: ezfc-page-main.php:290
+#@ ezfc
+msgid "Import file"
+msgstr ""
+
+#: ezfc-page-importexport.php:107
+#@ ezfc
+msgid "Import exported file here:"
+msgstr ""
+
+#: ezfc-page-importexport.php:110
+#@ ezfc
+msgid "Upload and import file"
+msgstr ""
+
+#: ezfc-page-licensing.php:27
+#: ezfc-page-licensing.php:50
+#: ezfc-page-update.php:27
+#@ ezfc
+msgid "Unknown error."
+msgstr ""
+
+#: ezfc-page-licensing.php:56
+#@ ezfc
+msgid "License registered."
+msgstr ""
+
+#: ezfc-page-licensing.php:56
+#@ ezfc
+msgid "License not registered."
+msgstr ""
+
+#: ezfc-page-licensing.php:70
+#: ezfc.php:121
+#@ ezfc
+msgid "Licensing"
+msgstr ""
+
+#: ezfc-page-licensing.php:71
+#@ ezfc
+msgid "In order to receive automatic updates, please register your purchase code here."
+msgstr ""
+
+#: ezfc-page-licensing.php:72
+#@ ezfc
+msgid "Only one license per site is allowed. If you uninstall the plugin from a site, the license will be automatically removed from the site so you can register it somewhere else."
+msgstr ""
+
+#: ezfc-page-licensing.php:73
+#, php-format
+#@ ezfc
+msgid "Please report any licensing problems to %s."
+msgstr ""
+
+#: ezfc-page-licensing.php:85
+#@ ezfc
+msgid "Current licensing status:"
+msgstr ""
+
+#: ezfc-page-licensing.php:88
+#@ ezfc
+msgid "The plugin will be licensed for:"
+msgstr ""
+
+#: ezfc-page-licensing.php:92
+#@ ezfc
+msgid "Purchase code"
+msgstr ""
+
+#: ezfc-page-licensing.php:97
+#: ezfc.php:129
+#@ ezfc
+msgid "Register license"
+msgstr ""
+
+#: ezfc-page-licensing.php:99
+#@ ezfc
+msgid "Thank your for activating your copy of ez Form Calculator! :)"
+msgstr ""
+
+#: ezfc-page-licensing.php:100
+#@ ezfc
+msgid "Licensed for:"
+msgstr ""
+
+#: ezfc-page-licensing.php:103
+#@ ezfc
+msgid "Revoke license"
+msgstr ""
+
+#: ezfc-page-licensing.php:105
+#@ ezfc
+msgid "The plugin cannot be licensed on a local machine."
+msgstr ""
+
+#: ezfc-page-main.php:89
+#@ ezfc
+msgid "It seems that you have manually updated the plugin. Please perform the following update:"
+msgstr ""
+
+#: ezfc-page-main.php:91
+#@ ezfc
+msgid "Manual update"
+msgstr ""
+
+#: ezfc-page-main.php:103
+#@ ezfc
+msgid "Overview"
+msgstr ""
+
+#: ezfc-page-main.php:112
+#: ezfc-page-main.php:129
+#@ ezfc
+msgid "Add form"
+msgstr ""
+
+#: ezfc-page-main.php:118
+#@ ezfc
+msgid "Blank"
+msgstr ""
+
+#: ezfc-page-main.php:130
+#@ ezfc
+msgid "Delete template"
+msgstr ""
+
+#: ezfc-page-main.php:131
+#: ezfc-page-main.php:285
+#@ ezfc
+msgid "Import form"
+msgstr ""
+
+#: ezfc-page-main.php:136
+#@ ezfc
+msgid "Actions"
+msgstr ""
+
+#: ezfc-page-main.php:139
+#@ ezfc
+msgid "Update form"
+msgstr ""
+
+#: ezfc-page-main.php:140
+#@ ezfc
+msgid "Save / update form to post"
+msgstr ""
+
+#: ezfc-page-main.php:141
+#@ ezfc
+msgid "Options"
+msgstr ""
+
+#: ezfc-page-main.php:145
+#@ ezfc
+msgid "Show form"
+msgstr ""
+
+#: ezfc-page-main.php:146
+#@ ezfc
+msgid "Show submissions"
+msgstr ""
+
+#: ezfc-page-main.php:150
+#@ ezfc
+msgid "Duplicate form"
+msgstr ""
+
+#: ezfc-page-main.php:151
+#@ ezfc
+msgid "Save current form as template"
+msgstr ""
+
+#: ezfc-page-main.php:155
+#@ ezfc
+msgid "Show form export data"
+msgstr ""
+
+#: ezfc-page-main.php:156
+#@ ezfc
+msgid "Download form"
+msgstr ""
+
+#: ezfc-page-main.php:160
+#@ ezfc
+msgid "Clear form (delete all elements)"
+msgstr ""
+
+#: ezfc-page-main.php:161
+#@ ezfc
+msgid "Delete form"
+msgstr ""
+
+#: ezfc-page-main.php:166
+#@ ezfc
+msgid "Shortcode"
+msgstr ""
+
+#: ezfc-page-main.php:174
+#@ ezfc
+msgid "Forms"
+msgstr ""
+
+#: ezfc-page-main.php:193
+#@ ezfc
+msgid "Form elements"
+msgstr ""
+
+#: ezfc-page-main.php:203
+#@ ezfc
+msgid "Name"
+msgstr ""
+
+#: ezfc-page-main.php:207
+#@ default
+msgid "Add elements"
+msgstr ""
+
+#: ezfc-page-main.php:209
+#@ ezfc
+msgid "Basic"
+msgstr ""
+
+#: ezfc-page-main.php:214
+#@ ezfc
+msgid "Calculation"
+msgstr ""
+
+#: ezfc-page-main.php:219
+#@ ezfc
+msgid "Other"
+msgstr ""
+
+#: ezfc-page-main.php:224
+#@ ezfc
+msgid "Steps"
+msgstr ""
+
+#: ezfc-page-main.php:239
+#: ezfc-page-templates.php:52
+#@ ezfc
+msgid "Preview"
+msgstr ""
+
+#: ezfc-page-main.php:280
+#@ ezfc
+msgid "Update options"
+msgstr ""
+
+#: ezfc-page-main.php:287
+#@ ezfc
+msgid "Import data"
+msgstr ""
+
+#: ezfc-page-main.php:291
+#@ ezfc
+msgid "Filetype allowed: .zip"
+msgstr ""
+
+#: ezfc-page-main.php:308
+#@ ezfc
+msgid "Export form"
+msgstr ""
+
+#: ezfc-page-main.php:316
+#@ ezfc
+msgid "Please rate!"
+msgstr ""
+
+#: ezfc-page-settings-form.php:45
+#: ezfc.php:117
+#@ ezfc
+msgid "Form settings"
+msgstr ""
+
+#: ezfc-page-settings-form.php:52
+#: ezfc-page-settings.php:129
+#@ ezfc
+msgid "Settings saved."
+msgstr ""
+
+#: ezfc-page-settings-form.php:105
+#: ezfc-page-settings.php:192
+#@ ezfc
+msgid "Save"
+msgstr ""
+
+#: ezfc-page-settings.php:123
+#: ezfc.php:118
+#@ ezfc
+msgid "Global settings"
+msgstr ""
+
+#: ezfc-page-settings.php:197
+#@ ezfc
+msgid "Price preview (currency does not apply here)"
+msgstr ""
+
+#: ezfc-page-templates.php:29
+#@ ezfc
+msgid "Template Browser"
+msgstr ""
+
+#: ezfc-page-templates.php:55
+#@ ezfc
+msgid "Install"
+msgstr ""
+
+#: ezfc-page-update.php:36
+#: ezfc.php:123
+#@ ezfc
+msgid "Update"
+msgstr ""
+
+#: ezfc-page-update.php:38
+#@ ezfc
+msgid "You can manually update plugin here."
+msgstr ""
+
+#: ezfc-page-update.php:52
+#@ ezfc
+msgid "Choose the update file"
+msgstr ""
+
+#: ezfc-page-update.php:55
+#@ ezfc
+msgid "Please backup your data before updating! You can export all data on the 'Import / Export' page."
+msgstr ""
+
+#: ezfc-page-update.php:57
+#@ ezfc
+msgid "The update file should be named 'codecanyon-7595334-ez-form-calculator-wordpress-plugin.zip'."
+msgstr ""
+
+#: ezfc-page-update.php:63
+#@ ezfc
+msgid "Upload and update"
+msgstr ""
+
+#: ezfc.php:116
+#@ ezfc
+msgid "ez Form Calculator"
+msgstr ""
+
+#: ezfc.php:119
+#@ ezfc
+msgid "Import / export"
+msgstr ""
+
+#: ezfc.php:119
+#@ ezfc
+msgid "Import / Export"
+msgstr ""
+
+#: ezfc.php:122
+#@ ezfc
+msgid "Templates"
+msgstr ""
+
+#: ezfc.php:129
+#@ ezfc
+msgid "Hello! Please register your license to receive automatic updates for <strong>ez Form Calculator Premium</strong>."
+msgstr ""
+
+#: ezfc.php:169
+#@ ezfc
+msgid "Global Settings"
+msgstr ""
+
+#: ezfc.php:172
+#@ ezfc
+msgid "Form Settings"
+msgstr ""
+
+#: ezfc.php:243
+#@ ezfc
+msgid "Delete"
+msgstr ""
+
+#: ezfc.php:244
+#@ ezfc
+msgid "Really delete the selected form?"
+msgstr ""
+
+#: ezfc.php:245
+#@ ezfc
+msgid "Really delete the selected element?"
+msgstr ""
+
+#: ezfc.php:246
+#@ default
+msgid "You have changed the form without having saved. Really leave the current form unsaved?"
+msgstr ""
+
+#: ezfc.php:395
+#@ ezfc
+msgid "No PayerID."
+msgstr ""
+
+#: ezfc.php:403
+#@ ezfc
+msgid "Payment could not be verified. :("
+msgstr ""
+
+#: ezfc.php:506
+#@ ezfc
+msgid "No form with the requested ID found."
+msgstr ""
+
+#: ezfc.php:511
+#@ ezfc
+msgid "Uploading..."
+msgstr ""
+
+#: ezfc.php:512
+#@ ezfc
+msgid "File upload successful."
+msgstr ""
+
+#: class.ezfc_frontend.php:509
+#, php-format
+#@ ezfc
+msgid "Unable to add product #%s to the cart."
+msgstr ""
+
+#: class.ezfc_backend.php:685
+#@ ezfc
+msgid "Form elements update error:"
+msgstr ""
+
+#: class.ezfc_backend.php:1109
+#@ ezfc
+msgid "Unable to send mails:"
+msgstr ""
+
+#: class.ezfc_frontend.php:268
+#@ ezfc
+msgid "Minimum value:"
+msgstr ""
+
+#: class.ezfc_frontend.php:271
+#@ ezfc
+msgid "Maximum value:"
+msgstr ""
+
+#: class.ezfc_frontend.php:879
+#@ ezfc
+msgid "No target found:"
+msgstr ""
+

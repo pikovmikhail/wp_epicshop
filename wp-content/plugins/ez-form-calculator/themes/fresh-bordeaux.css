@@ -1,0 +1,154 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:700,300,400);
+.ezfc-theme-fresh-bordeaux {
+  font-family: "PT Sans", Arial, sans-serif;
+}
+.ezfc-theme-fresh-bordeaux .ezfc-element {
+  padding-top: 0em;
+  padding-bottom: 1.5em;
+}
+.ezfc-theme-fresh-bordeaux .ezfc-label {
+  display: block;
+  font-size: 1.2em;
+  font-weight: 400;
+  margin: 0;
+  padding: 0.75em;
+  text-align: left;
+}
+.ezfc-theme-fresh-bordeaux .ezfc-element-input,
+.ezfc-theme-fresh-bordeaux .ezfc-element-numbers,
+.ezfc-theme-fresh-bordeaux .ezfc-element-textarea,
+.ezfc-theme-fresh-bordeaux .ezfc-element-select {
+  border: 0;
+  border-radius: 1em;
+  background: #5f021f;
+  color: #ffffff;
+  padding: 0.5em 1em;
+  width: 100%;
+}
+.ezfc-theme-fresh-bordeaux .ezfc-element-select {
+  padding: 0.6em 1em;
+}
+.ezfc-theme-fresh-bordeaux .ezfc-element-radio,
+.ezfc-theme-fresh-bordeaux .ezfc-element-radio-text,
+.ezfc-theme-fresh-bordeaux .ezfc-element-checkbox,
+.ezfc-theme-fresh-bordeaux .ezfc-element-checkbox-text {
+  display: inline-block;
+}
+.ezfc-theme-fresh-bordeaux .ezfc-element-radio-input,
+.ezfc-theme-fresh-bordeaux .ezfc-element-checkbox-input {
+  margin: 0 0.5em 0.2em 1em;
+}
+.ezfc-theme-fresh-bordeaux .ezfc-element-daterange {
+  width: 49%;
+}
+.ezfc-theme-fresh-bordeaux .ezfc-element-daterange-from {
+  margin-right: 1%;
+}
+.ezfc-theme-fresh-bordeaux .ezfc-element-daterange-to {
+  margin-left: 1%;
+}
+.ezfc-theme-fresh-bordeaux .ezfc-element-wrapper-image img {
+  max-width: 100%;
+}
+.ezfc-theme-fresh-bordeaux .ezfc-element-wrapper-subtotal .ezfc-text {
+  font-size: 1.5em;
+  padding: 0.5em;
+}
+.ezfc-theme-fresh-bordeaux .ui-spinner {
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+}
+.ezfc-theme-fresh-bordeaux .ui-spinner-input {
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 0.9em;
+  font-weight: 300;
+  margin: 0;
+}
+.ezfc-theme-fresh-bordeaux .ezfc-price {
+  display: inline-block;
+  font-size: 1.75em;
+  font-weight: 700;
+  padding: 0.5em;
+}
+.ezfc-theme-fresh-bordeaux .ezfc-price-value {
+  color: #5f021f;
+  font-size: 2.5em;
+  vertical-align: middle;
+}
+.ezfc-theme-fresh-bordeaux .ezfc-price-currency {
+  font-size: 1.5em;
+  vertical-align: middle;
+}
+.ezfc-theme-fresh-bordeaux .ezfc-element-price {
+  font-style: italic;
+}
+.ezfc-theme-fresh-bordeaux .ezfc-btn {
+  border: 0;
+  border-radius: 1em;
+  background: #5f021f;
+  color: #ffffff;
+  padding: 0.5em 1em;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.ezfc-theme-fresh-bordeaux .ezfc-btn:hover {
+  background: #780327;
+  color: #ffffff;
+}
+.ezfc-theme-fresh-bordeaux .ezfc-success-text {
+  display: none;
+}
+.ezfc-theme-fresh-bordeaux .ezfc-required-char {
+  color: #f00;
+}
+.ezfc-theme-fresh-bordeaux input.ezfc-element-fileupload {
+  margin: 0.5em 0;
+}
+.ezfc-theme-fresh-bordeaux .ezfc-fileupload-message {
+  padding: 0.5em 0;
+}
+.ezfc-theme-fresh-bordeaux .ezfc-upload-button {
+  border: 0;
+  margin: 0.5em 0;
+  padding: 0.5em 1em;
+  background: #5f021f;
+  color: #ffffff;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.ezfc-theme-fresh-bordeaux .ezfc-upload-button:hover {
+  background: #780327;
+  color: #ffffff;
+}
+.ezfc-theme-fresh-bordeaux .ezfc-element .fa {
+  color: #fff;
+}
+.ezfc-theme-fresh-bordeaux ::-webkit-input-placeholder {
+  color: #e6e6e6;
+  font-style: italic;
+}
+.ezfc-theme-fresh-bordeaux :-moz-placeholder {
+  color: #e6e6e6;
+  font-style: italic;
+}
+.ezfc-theme-fresh-bordeaux ::-moz-placeholder {
+  color: #e6e6e6;
+  font-style: italic;
+}
+.ezfc-theme-fresh-bordeaux :-ms-input-placeholder {
+  color: #e6e6e6;
+  font-style: italic;
+}
+.placeholder {
+  color: #e6e6e6;
+  font-style: italic;
+}
+.hover-lighten:hover {
+  background: #780327;
+  color: #ffffff;
+}

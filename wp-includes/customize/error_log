@@ -1,0 +1,4 @@
+[25-Dec-2018 08:24:18 UTC] PHP Fatal error:  Class 'WP_Customize_Control' not found in /home/kukukwen/public_html/wp-includes/customize/class-wp-customize-nav-menu-control.php on line 15
+[03-Jan-2019 22:35:13 UTC] PHP Fatal error:  Class 'WP_Customize_Control' not found in /home/kukukwen/public_html/wp-includes/customize/class-wp-customize-nav-menu-control.php on line 15
+[08-Jan-2019 08:29:44 UTC] PHP Fatal error:  Class 'WP_Customize_Control' not found in /home/kukukwen/public_html/wp-includes/customize/class-wp-customize-nav-menu-control.php on line 15
+[08-Jan-2019 08:29:46 UTC] PHP Fatal error:  Class 'WP_Customize_Control' not found in /home/kukukwen/public_html/wp-includes/customize/class-wp-customize-nav-menu-control.php on line 15
